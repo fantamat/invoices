@@ -1,0 +1,79 @@
+﻿,database name,czech descirption,API FP,IAH FP,API FV,IAH FV,API UP,IAH UP
+ok,"type  'received', 'issued','receipt_received'",Typ Faktury,,,,,,
+ok,purchase_order_num ,Číslo nákupní objednávky:,✓,✓,✓,✓,✓,✓
+ok,external_invoice_number,Externí číslo faktury,✓,✓,x,x,x,x
+ok,delivery_note_number,číslo dodacího listu,✓,✓,✓,✓,x,x
+ok,due_date,Splatnost do dne:,✓,✓,✓,✓,x,x
+ok,issue_date,Datum vystavení,✓,✓,✓,✓,✓,✓
+ok,taxable_supply_date,Datum uskutečnění zdanitelného plnění,✓,✓,✓,✓,✓,✓
+ok,deduction_date,Datum odpočtu (odpočitatelnosti DPH apod.),✓,✓,✓,✓,x,x
+,bank_account_number,Číslo bankovního účtu,✓,✓,✓,✓,x,x
+,bank_code,Kód banky,✓,✓,✓,✓,x,x
+,constant_symbol,Konstantní symbol,✓,✓,✓,✓,x,x
+,variable_symbol,Variabilní symbol,✓,✓,✓,✓,x,x
+,specific_symbol,Specifický symbol,✓,✓,✓,✓,x,x
+,iban,IBAN,✓,✓,✓,✓,x,x
+,bic,BIC/SWIFT,✓,✓,✓,✓,x,x
+,"payment_method     
+        'bank_transfer' => 'Příkaz k úhradě',
+        'card' => 'Platební karta',
+        'cash' => 'Hotově',
+        'cod' => 'Dobírka',
+        'credit'  => 'Kredit',
+        'advance' => 'Záloha',
+        'voucher' => 'Stravenka',
+        'paypal' => 'PayPal',
+        'offset' => 'Zápočet',
+        'direct_debit' => 'Inkaso'",Způsob úhrady,✓,✓,✓,✓,✓,✓
+,description ,Popis,✓,✓,✓,✓,✓,✓
+
+,supplier_account_id,Účet (Naše firma),✓,✓,✓,✓,x,x
+,supplier_contact_id,Kontakt (Naše firma),✓,✓,✓,✓,x,x
+,supplier_address_street,Adresa (Naše firma),✓,✓,✓,✓,x,x
+,supplier_address_city,Město (Naše firma),✓,✓,✓,✓,x,x
+,supplier_address_state,Stát (Naše firma),✓,✓,✓,✓,x,x
+,supplier_address_postalcode,PSČ (Naše firma),✓,✓,✓,✓,x,x
+,supplier_address_country,Země (Naše firma),✓,✓,✓,✓,x,x
+,supplier_identification_number,IČO (Naše firma),✓,✓,✓,✓,x,x
+,supplier_tax_number,DIČ (Naše firma),✓,✓,✓,✓,x,x
+,supplier_phone,Telefon (Naše firma),✓,✓,✓,✓,x,x
+,supplier_email,E-mail (Naše firma),✓,✓,✓,✓,x,x
+,billing_account_id,Účet (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_contact_id,Kontakt (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_address_street,Adresa (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_address_city,Město (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_address_state,Stát (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_address_postalcode,PSČ (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_address_country,Země (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_identification_number,IČO (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_tax_number,DIČ (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_phone,Telefon (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,billing_email,E-mail (Zákazník Fakturovat na),✓,✓,✓,✓,✓,✓
+,shipping_account_id,Účet (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_contact_id,Kontakt (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_address_street,Adresa (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_address_city,Město (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_address_state,Stát (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_address_postalcode,PSČ (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_address_country,Země (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_phone,Telefon (Zákazník Zaslat na),✓,x,✓,✓,x,x
+,shipping_email,E-mail (Zákazník Zaslat na),✓,x,✓,✓,x,x
+
+,amount_wo_rounding,Celkem cena,✓,✓,✓,✓,✓,✓
+,amount_rounding,Zaokrouhlení,✓,✓,✓,✓,✓,✓
+,amount,Celekm k úhradě ,✓,✓,✓,✓,✓,✓
+,currency_id,Měna,✓,✓,✓,✓,✓,✓
+,,Měna DPH,✓,,✓,,✓,
+
+,,Položky,,,,,,
+,invoice_lines.name,Název položky,✓,✓,✓,,✓,
+,invoice_lines.mfr_part_no,Kód položky,✓,✓,✓,,✓,?
+,,EAN,✓,,✓,,✓,?
+,invoice_lines.quantity,Počet,✓,✓,✓,,✓,
+,,MJ,✓,,✓,,✓,
+,invoice_lines.unit_price,Cena za MJ bez DPH,✓,✓,✓,,✓,
+,invoice_lines.ext_price,Cena celkem bez DPH,✓,✓,✓,,✓,
+,invoice_adjustments.amount,Celkem jen DPH,✓,,✓,,✓,
+,invoice_lines.ext_price * (1 + invoice_lines.tax_class_id/100),Celkem s DPH (základ + dph),✓,,✓,,✓,
+,invoice_lines.tax_class_id,Sazba DPH,✓,✓,✓,,✓,
+,,Sleva (%),✓,?,✓,,✓
