@@ -1,0 +1,17 @@
+[project]
+name = "invoices"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.116.1",
+    "google-genai>=1.28.0",
+    "markitdown>=0.1.2",
+    "pdf2image>=1.17.0",
+    "pillow>=11.3.0",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "torch>=2.7.1",
+    "transformers>=4.54.1",
+]
