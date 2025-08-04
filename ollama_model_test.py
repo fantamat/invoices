@@ -109,7 +109,7 @@ def ollama_test_model(ollama_model_name, ollama_host):
 
     # Define the output directory for Ollama results
     base_model_name = ollama_model_name.replace(":", "_").replace("/", "_")
-    output_dir = f"data/outputs/ollama_{base_model_name}/"
+    output_dir = f"data/test_outputs/ollama_{base_model_name}/"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
         
@@ -122,16 +122,16 @@ def main():
     # You can set the OLLAMA_MODEL environment variable or change the default here.
     
     TEST_MODELS = [
-        # "gemma3:4b",
-        # "qwen2.5vl:7b",
-        # "llava:7b",
+        "gemma3:4b",
+        "qwen2.5vl:7b",
+        "llava:7b",
         # larger models
         #"llama3.2-vision:11b",
-        # "gemma3:12b",       
-        # "llava:34b",
-        "mistral-small3.2:24b",
+        "gemma3:12b",       
+        "llava:34b",
+        #"mistral-small3.2:24b",
         "gemma3:27b",
-        "qwen2.5vl:32b",
+        #"qwen2.5vl:32b",
         
     ]
     ollama_host = os.getenv("OLLAMA_HOST", "http://localhost:11434")  # Default Ollama host

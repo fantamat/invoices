@@ -8,7 +8,7 @@ from markitdown import MarkItDown  # Microsoft's library for converting document
 from PIL import Image
 
 
-TEST_DATA_FOLDER = "data/invoices"
+TEST_DATA_FOLDER = "data/test_invoices"
 
 
 def test_all(process_fun, output_folder):
