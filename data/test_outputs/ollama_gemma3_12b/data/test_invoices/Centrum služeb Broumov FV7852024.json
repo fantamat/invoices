@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2024-10-25",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "284129104030",
+      "bank_code": "0300",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dov\u00e1 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "CZ"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 491 862 657",
+      "email": "info@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Centrum slu\u017eeb Broumov s.r.o.",
+      "address": {
+        "street": "Ki\u0161tlerov\u00e9 225",
+        "city": "Broumov",
+        "postalcode": "53345",
+        "country": "CZ"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "491 862 657",
+      "email": "info@deymed.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1373.6,
+    "amount_rounding": 0.0,
+    "amount": 1373.6,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "\u00da\u010dtenka",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1373.6,
+        "ext_price": 1373.6,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1373.6
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Centrum slu\u017eeb Broumov FV7852024.pdf",
+  "time": 220.164972782135
+}

@@ -1,0 +1,109 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2023-03-10",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "2171532000",
+      "bank_code": "\u010cesk\u00e1 spo\u0159itelna",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alien\u00ed, s.r.o.",
+      "address": {
+        "street": "Zborovsk\u00e1 6",
+        "city": "Praha",
+        "postalcode": "14000",
+        "country": "Czechia"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+4202540111",
+      "email": "alien@alien.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dov\u00e1 533",
+        "city": "Hronov",
+        "postalcode": "54934",
+        "country": "Czechia"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420730130130",
+      "email": "alien@alien.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1304.33,
+    "amount_rounding": 0.0,
+    "amount": 1304.33,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Kancel\u00e1\u0159sk\u00fd pap\u00edr Alza Basic A3 80g",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 174.36,
+        "ext_price": 174.36,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 210.98
+      },
+      {
+        "name": "Platba za produkt",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 57.02,
+        "ext_price": 57.02,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 69.0
+      },
+      {
+        "name": "Platba za produkt",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 57.02,
+        "ext_price": 57.02,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 69.0
+      },
+      {
+        "name": "Platba za produkt",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 57.02,
+        "ext_price": 57.02,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 69.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alza 2977457665.pdf",
+  "time": 290.3310604095459
+}

@@ -1,0 +1,121 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "4.6.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "25306524/0600",
+      "bank_code": "MONETA Money Bank",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ALUPA s.r.o.",
+      "address": {
+        "street": "\u010cI.p. 200",
+        "city": "530 02 Mikulovice",
+        "postalcode": "530 02",
+        "country": "CZ"
+      },
+      "identification_number": "CZ47472987",
+      "tax_number": "CZ47472987",
+      "phone": "777 489 777",
+      "email": "info@ehlinik.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrnacova 533",
+        "city": "549 31 Hronov",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "CZ2584584",
+      "tax_number": "CZ2584584",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 7842.07,
+    "amount_rounding": 0.0,
+    "amount": 7842.07,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Hlin\u00edkov\u00fd ty\u010d polohovateln\u00fd 40x6",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 49.791,
+        "unit": "ks",
+        "unit_price": 15.0,
+        "ext_price": 7842.07,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 7842.07
+      },
+      {
+        "name": "Hlin\u00edkov\u00fd profil U 25x10x1.5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 160.0,
+        "unit": "ks",
+        "unit_price": 4.5,
+        "ext_price": 4329.9,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4329.9
+      },
+      {
+        "name": "Hlin\u00edkov\u00fd profil L 25x25x2",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 6.5,
+        "ext_price": 325.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 325.0
+      },
+      {
+        "name": "Hlin\u00edkov\u00fd profil T 20x20x1.5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 3.5,
+        "ext_price": 140.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 140.0
+      },
+      {
+        "name": "Hlin\u00edkov\u00fd profil T 30x30x2",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 5.0,
+        "unit": "ks",
+        "unit_price": 7.5,
+        "ext_price": 225.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 225.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALUPA FVS-1111224.pdf",
+  "time": 768.3556635379791
+}

@@ -1,0 +1,133 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2023-01-24",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "XXXXX",
+      "bank_code": "XXXXXX",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "XXXXXXXXXXX",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alien Company",
+      "address": {
+        "street": "1001",
+        "city": "Boston",
+        "postalcode": "02135-1804",
+        "country": "USA"
+      },
+      "identification_number": "XXXXX",
+      "tax_number": "XXXXXXX",
+      "phone": "+1 XXXXX",
+      "email": "aliens@aliencompany.com"
+    },
+    "counterparty_info": {
+      "company_name": "Alien's Company",
+      "address": {
+        "street": "02135-1804",
+        "city": "Boston",
+        "postalcode": "02135-1804",
+        "country": "USA"
+      },
+      "identification_number": "XXXXX",
+      "tax_number": "XXXXXXX",
+      "phone": "+1 XXXXX",
+      "email": "aliens@aliencompany.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 5234.99,
+    "amount_rounding": 0.0,
+    "amount": 5235.0,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "Receipt for the services rendered on January 24th, 2023. The payment has been received in cash, and it is associated with XXXXXXXXXXX's account.",
+    "lines": [
+      {
+        "name": "VIP Seat",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 500.0,
+        "ext_price": 500.0,
+        "tax_class_id": 239.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 500.62
+      },
+      {
+        "name": "Alcohol",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 150.0,
+        "ext_price": 150.0,
+        "tax_class_id": 239.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 150.64
+      },
+      {
+        "name": "Food",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 100.0,
+        "ext_price": 100.0,
+        "tax_class_id": 239.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 100.56
+      },
+      {
+        "name": "VAT",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 25.97,
+        "ext_price": 25.97,
+        "tax_class_id": 239.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 26.0
+      },
+      {
+        "name": "Subtotal",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 875.64,
+        "ext_price": 875.64,
+        "tax_class_id": 239.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 875.64
+      },
+      {
+        "name": "Total",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 5235.0,
+        "ext_price": 5235.0,
+        "tax_class_id": 239.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5235.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000008.pdf",
+  "time": 1112.6648182868958
+}

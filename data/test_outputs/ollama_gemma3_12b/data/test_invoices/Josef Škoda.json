@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "9. 9. 2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "431/5083",
+      "bank_code": "2010",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kurdinaova 533/31",
+        "city": "Pardubice",
+        "postalcode": "530 00",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25226584",
+      "tax_number": "CZ25226584",
+      "phone": "+420 531 5083",
+      "email": "info@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Josef Skoda",
+      "address": {
+        "street": "Komorni 1018/16",
+        "city": "Praha",
+        "postalcode": "18000",
+        "country": "Czech Republic"
+      },
+      "identification_number": "109031494",
+      "tax_number": "CZ109031494",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 21.0,
+    "amount_rounding": 0.0,
+    "amount": 21.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Clevostyl",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 21.0,
+        "ext_price": 21.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 21.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Josef \u0160koda.pdf",
+  "time": 214.957754611969
+}

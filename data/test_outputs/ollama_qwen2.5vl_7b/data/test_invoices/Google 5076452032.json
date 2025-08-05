@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "30.9.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "voucher",
+    "banking_info": {
+      "account_number": "5076452032",
+      "bank_code": "36689970H",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "IE36689970H",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czechia"
+      },
+      "identification_number": "9351-0632-7141",
+      "tax_number": "36689970H",
+      "phone": "Not provided",
+      "email": "deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "Google Cloud EMEA Limited",
+      "address": {
+        "street": "Velasco Clanwilliam Place",
+        "city": "Dublin 2",
+        "postalcode": "Ireland 2",
+        "country": "Ireland"
+      },
+      "identification_number": "36689970H",
+      "tax_number": "36689970H",
+      "phone": "Not provided",
+      "email": "Not provided"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 33840.0,
+    "amount_rounding": 0.0,
+    "amount": 33840.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Google Workspace Business Starter subscription for 2 months from 1.9.2024 to 30.9.2024",
+    "lines": [
+      {
+        "name": "Google Workspace Business Starter",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 16920.0,
+        "ext_price": 33840.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 33840.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Google 5076452032.pdf",
+  "time": 495.4529983997345
+}

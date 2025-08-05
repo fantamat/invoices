@@ -54,8 +54,11 @@ def test_all(process_fun, output_folder):
 
 def text_to_json(text):
     json_start = text.find("```json\n") + len("```json\n")
-    json_end = text.find("```", json_start)
-    json_str = text[json_start:json_end].strip()
+    if json_start == -1:
+        json_str = text
+    else:
+        json_end = text.find("```", json_start)
+        json_str = text[json_start:json_end].strip()
 
     out = json.loads(json_str)
     return out

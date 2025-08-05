@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "10-JUN-2023",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "123456",
+      "bank_code": "687",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "S.A.T.E.S.Y.O.Z.",
+      "address": {
+        "street": "CASINO BERMEJAS 125",
+        "city": "TAMARINO",
+        "postalcode": "0638",
+        "country": "VENEZUELA"
+      },
+      "identification_number": "RUT: 123456789",
+      "tax_number": "RIF: 123456789",
+      "phone": "041-2345678",
+      "email": "no email address provided on the receipt"
+    },
+    "counterparty_info": {
+      "company_name": "INDIA INTERNACIONAL LTD.",
+      "address": {
+        "street": "AV. 123, 789",
+        "city": "MADRID",
+        "postalcode": "0638",
+        "country": "SPAIN"
+      },
+      "identification_number": "N/A",
+      "tax_number": "N/A",
+      "phone": "N/A",
+      "email": "N/A"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 159.0,
+    "amount_rounding": 0.0,
+    "amount": 159.0,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "NON",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 150.0,
+        "ext_price": 159.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 159.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\AZT 202400381.pdf",
+  "time": 149.0814654827118
+}

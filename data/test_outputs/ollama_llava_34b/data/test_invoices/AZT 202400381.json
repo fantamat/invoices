@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "05/16/2018",
+    "due_date": "",
+    "taxable_supply_date": "03/26/2018",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "49737",
+      "bank_code": "126",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Ocean Pacific",
+      "address": {
+        "street": "9805 E. Bell Rd.",
+        "city": "Scottsdale",
+        "postalcode": "85260-7401",
+        "country": "United States"
+      },
+      "identification_number": "5793862",
+      "tax_number": "20692119",
+      "phone": "480-596-2177",
+      "email": "alienscottsdale@aol.com"
+    },
+    "counterparty_info": {
+      "company_name": "Ocean Pacific",
+      "address": {
+        "street": "9805 E. Bell Rd.",
+        "city": "Scottsdale",
+        "postalcode": "85260-7401",
+        "country": "United States"
+      },
+      "identification_number": "5793862",
+      "tax_number": "20692119",
+      "phone": "480-596-2177",
+      "email": "alienscottsdale@aol.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 4293.77,
+    "amount_rounding": 0.0,
+    "amount": 4300.0,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "Shipping & Handling (Ground)",
+    "lines": [
+      {
+        "name": "Shipping & Handling (Ground)",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 58.92,
+        "ext_price": 58.92,
+        "tax_class_id": 7401.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 58.92
+      },
+      {
+        "name": "Shipping & Handling (Ground)",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 58.92,
+        "ext_price": 58.92,
+        "tax_class_id": 7401.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 58.92
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\AZT 202400381.pdf",
+  "time": 772.7495808601379
+}

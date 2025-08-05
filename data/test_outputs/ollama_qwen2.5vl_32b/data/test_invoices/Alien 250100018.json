@@ -1,0 +1,4 @@
+{
+  "error": "Ollama API request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+  "time": 143102.70104765892
+}

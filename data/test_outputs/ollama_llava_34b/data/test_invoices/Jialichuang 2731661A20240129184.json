@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2017-08-30",
+    "due_date": "",
+    "taxable_supply_date": "2017-08-22",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "XXX XXX XXXX XXXX 6459",
+      "bank_code": "0021027",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "ATXXXXXXXXX1",
+      "bic": "HAMXAT21XXX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Austrian Airlines AG - IBS",
+      "address": {
+        "street": "Albert-Rainergasse 4",
+        "city": "Vienna",
+        "postalcode": "1010",
+        "country": "AT"
+      },
+      "identification_number": "ATUXXXXXXX2637",
+      "tax_number": "ATUXXXXXX3549",
+      "phone": "+43 1 581 20 652",
+      "email": "sales.wien@austrian.com"
+    },
+    "counterparty_info": {
+      "company_name": "Austrian Airlines AG - IBS",
+      "address": {
+        "street": "Albert-Rainergasse 4",
+        "city": "Vienna",
+        "postalcode": "1010",
+        "country": "AT"
+      },
+      "identification_number": "ATUXXXXXXX3768",
+      "tax_number": "ATUXXXXXX4597",
+      "phone": "+43 1 581 20 652",
+      "email": "sales.wien@austrian.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 129.0,
+    "amount_rounding": 0.0,
+    "amount": 129.0,
+    "currency_id": "EUR",
+    "vat_currency_id": "EUR",
+    "description": "Austrian Airlines AG - IBS",
+    "lines": [
+      {
+        "name": "Austrian Airlines AG - IBS",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 129.0,
+        "ext_price": 129.0,
+        "tax_class_id": 3.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 158.74
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Jialichuang 2731661A20240129184.pdf",
+  "time": 786.1254069805145
+}

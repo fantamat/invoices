@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2015-09-17",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "card",
+    "banking_info": {
+      "account_number": "2348992266",
+      "bank_code": "003",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "DE56789123456",
+      "bic": "DKDDDE3X"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ANAPRA",
+      "address": {
+        "street": "Danyu Doklad Street 5/94, Berlin",
+        "city": "Berlin",
+        "postalcode": "10623",
+        "country": "DE"
+      },
+      "identification_number": "87654321",
+      "tax_number": "897654321",
+      "phone": "0030 210 412 6800",
+      "email": "danyu.doklad@anapra.com"
+    },
+    "counterparty_info": {
+      "company_name": "CORSAKOS",
+      "address": {
+        "street": "Anatolos Street 23/56",
+        "city": "Athens",
+        "postalcode": "10437",
+        "country": "GR"
+      },
+      "identification_number": "987654321",
+      "tax_number": "987654321",
+      "phone": "0030 210 412 6800",
+      "email": "anatolos@corsakos.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 568.9,
+    "amount_rounding": 0.0,
+    "amount": 568.9,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Product A",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 234.9,
+        "ext_price": 234.9,
+        "tax_class_id": 10.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 234.9
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ANAFRA 9001402158.pdf",
+  "time": 930.4932546615601
+}

@@ -1,0 +1,217 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29.04.2025",
+    "due_date": "",
+    "taxable_supply_date": "29.04.2025",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "115-8152550227/0100",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ALIEN technology s.r.o.",
+      "address": {
+        "street": "Kudrnov\u00e1 533",
+        "city": "54931 Hronov",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+491481298",
+      "email": "obchod@alien.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrnov\u00e1 533",
+        "city": "54931 Hronov",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1073636.91,
+    "amount_rounding": 0.0,
+    "amount": 1299100.65,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Fakturujeme V\u00e1m zbo\u017e\u00ed dle Va\u0161\u00ed objedn\u00e1vky:",
+    "lines": [
+      {
+        "name": "47-830-01 JEKL CHLAZEN\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 50.0,
+        "unit": "ks",
+        "unit_price": 1205.0,
+        "ext_price": 60250.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 72902.5
+      },
+      {
+        "name": "47-830-02 ZAKLADNA CHLAZEN\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 50.0,
+        "unit": "ks",
+        "unit_price": 2005.0,
+        "ext_price": 100250.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 121250.0
+      },
+      {
+        "name": "47-830-10 FILTR VZDUCHU SAN.PERBADLA",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 2150.0,
+        "ext_price": 21500.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 26005.0
+      },
+      {
+        "name": "47-830-11 DESKA POD NOTEBOOK",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 15.0,
+        "unit": "ks",
+        "unit_price": 300.0,
+        "ext_price": 4500.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5445.0
+      },
+      {
+        "name": "47-830-20 KRYT VENTILATORU",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 60.0,
+        "unit": "ks",
+        "unit_price": 40.0,
+        "ext_price": 2400.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2904.0
+      },
+      {
+        "name": "47-830-21 DR\u017d\u00c1K NOTEBOOKU",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 700.0,
+        "ext_price": 7000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 8470.0
+      },
+      {
+        "name": "47-830-22 RUKAVI\u010cKY ESD",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 30.0,
+        "ext_price": 600.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 726.0
+      },
+      {
+        "name": "47-830-23 \u0160T\u011aTEC \u010cISTIC\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 50.0,
+        "ext_price": 500.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 605.0
+      },
+      {
+        "name": "47-830-30 PASTA TEPL.VODIV\u00c1 30G",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 50.0,
+        "unit": "ks",
+        "unit_price": 80.0,
+        "ext_price": 4000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4840.0
+      },
+      {
+        "name": "47-830-31 HADR \u010cISTIC\u00cd NA LCD",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 40.0,
+        "ext_price": 800.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 968.0
+      },
+      {
+        "name": "47-830-32 ST\u0158IKADLO NA \u010cI\u0160T\u011aN\u00cd LCD",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 120.0,
+        "ext_price": 1200.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1452.0
+      },
+      {
+        "name": "47-830-40 VENTILATOR 80X80MM",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 30.0,
+        "unit": "ks",
+        "unit_price": 100.0,
+        "ext_price": 3000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3630.0
+      },
+      {
+        "name": "47-830-41 KABEL SATA",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 80.0,
+        "ext_price": 1600.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1936.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alien 250100018.pdf",
+  "time": 1468.448050737381
+}

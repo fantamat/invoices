@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "08/12/2017",
+    "due_date": "",
+    "taxable_supply_date": "08/12/2017",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "5394 6758 7641 5412",
+      "bank_code": "01010000",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "Ford",
+      "address": {
+        "street": "4567 Main Street",
+        "city": "New York",
+        "postalcode": "10011",
+        "country": "USA"
+      },
+      "identification_number": "3242-8941-6745",
+      "tax_number": "436-346-6746",
+      "phone": "564-867-4510",
+      "email": "none@none.com"
+    },
+    "counterparty_info": {
+      "company_name": "Ford",
+      "address": {
+        "street": "324 867 4510 Main Street",
+        "city": "New York",
+        "postalcode": "10012",
+        "country": "USA"
+      },
+      "identification_number": "3242-8941-6745",
+      "tax_number": "436-346-6746",
+      "phone": "564-867-4510",
+      "email": "none@none.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 124.98,
+    "amount_rounding": 0.0,
+    "amount": 124.98,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "Car Rental and Tourist Attraction Purchase",
+    "lines": [
+      {
+        "name": "Car Rental",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 67.5,
+        "ext_price": 67.5,
+        "tax_class_id": 1234.0,
+        "discount_percent": 25.0,
+        "total_with_vat": 80.0
+      },
+      {
+        "name": "Tourist Attraction",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 37.48,
+        "ext_price": 37.48,
+        "tax_class_id": 4321.0,
+        "discount_percent": 20.0,
+        "total_with_vat": 50.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Centrum slu\u017eeb Broumov FV7852024.pdf",
+  "time": 830.0580115318298
+}

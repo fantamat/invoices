@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "31-05-2017",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "6849224871",
+      "bank_code": "455",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "FR76 2004 1010 0505 M025 601",
+      "bic": "CEPAFRPX"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ALIEN TECHNOLOGY",
+      "address": {
+        "street": "105 rue des Pins",
+        "city": "Lyon",
+        "postalcode": "69432",
+        "country": "France"
+      },
+      "identification_number": "FR278075936",
+      "tax_number": "FR714358714",
+      "phone": "+33.472.41.87.17",
+      "email": "[aliens@alien-technology.fr](mailto:aliens@alien-technology.fr)"
+    },
+    "counterparty_info": {
+      "company_name": "Pantheon Early-Stage",
+      "address": {
+        "street": "105 rue des Pins",
+        "city": "Lyon",
+        "postalcode": "69432",
+        "country": "France"
+      },
+      "identification_number": "FR278075936",
+      "tax_number": "FR714358714",
+      "phone": "+33.472.41.87.17",
+      "email": "[aliens@alien-technology.fr](mailto:aliens@alien-270975936)"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 9410.44,
+    "amount_rounding": 0.0,
+    "amount": 9410.44,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "Invoice for early-stage consulting services rendered on March 27th, 2017 by Pantheon Early-Stage",
+    "lines": [
+      {
+        "name": "Early-Stage Consulting",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 9258.0,
+        "ext_price": 9258.0,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 9410.44
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alien 250100018.pdf",
+  "time": 1090.2403347492218
+}

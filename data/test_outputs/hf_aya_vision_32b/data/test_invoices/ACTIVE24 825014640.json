@@ -1,0 +1,5 @@
+{
+  "error": "Failed to parse JSON after multiple attempts",
+  "raw_response": "```json\n{\n  \"invoice\": {\n    \"number\": \"825014",
+  "time": 15959.80841588974
+}

@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "06/09/2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "XXXXXXXXXXXXX6978",
+      "bank_code": "XXXX",
+      "constant_symbol": "88648",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "XXXX",
+      "bic": "XXXX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostics",
+      "address": {
+        "street": "181 WEST GLEN",
+        "city": "LAKE POWELL TRAVEL",
+        "postalcode": "88648",
+        "country": "AZ"
+      },
+      "identification_number": "979311419",
+      "tax_number": "XXXX",
+      "phone": "+1480691289",
+      "email": "deymed.co"
+    },
+    "counterparty_info": {
+      "company_name": "Mastercard",
+      "address": {
+        "street": "XXXX",
+        "city": "XXXX",
+        "postalcode": "XXXX",
+        "country": "XXXX"
+      },
+      "identification_number": "XXXX",
+      "tax_number": "XXXX",
+      "phone": "XXXX",
+      "email": "XXXX"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 49.77,
+    "amount_rounding": 0.0,
+    "amount": 49.77,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "REGULAR",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 15.0886,
+        "ext_price": 3.29,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 49.77
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000008.pdf",
+  "time": 473.2799894809723
+}

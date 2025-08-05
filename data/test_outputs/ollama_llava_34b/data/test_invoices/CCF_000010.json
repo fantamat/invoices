@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29/01/15",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "040764895",
+      "bank_code": "031",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed",
+      "address": {
+        "street": "29465",
+        "city": "Los Angeles",
+        "postalcode": "90017",
+        "country": "United States of America"
+      },
+      "identification_number": "3527888888",
+      "tax_number": "344567",
+      "phone": "+91 0404 991",
+      "email": "[deymed@gmail.com](mailto:deymed@gmail.com)"
+    },
+    "counterparty_info": {
+      "company_name": "Deymed",
+      "address": {
+        "street": "29465",
+        "city": "Los Angeles",
+        "postalcode": "90017",
+        "country": "United States of America"
+      },
+      "identification_number": "3527888888",
+      "tax_number": "344567",
+      "phone": "+91 0404 991",
+      "email": "[deymed@gmail.com](mailto:deymed@gmail.com)"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 2368.57,
+    "amount_rounding": 0.0,
+    "amount": 2369.0,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "Phone purchase",
+    "lines": [
+      {
+        "name": "Phone",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 2368.57,
+        "ext_price": 2369.0,
+        "tax_class_id": 102.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2400.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000010.pdf",
+  "time": 707.6656036376953
+}

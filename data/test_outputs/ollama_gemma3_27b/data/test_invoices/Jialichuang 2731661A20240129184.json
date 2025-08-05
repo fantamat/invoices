@@ -1,0 +1,109 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "28/01/2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "unknown",
+    "banking_info": {
+      "account_number": "unknown",
+      "bank_code": "unknown",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "unknown",
+      "bic": "unknown"
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "JLCPCB (HongKong) Co., Limited",
+      "address": {
+        "street": "Unit 21, 28F, Metropolis Square, No.2 On Yiu Street, Shatin, New Territories",
+        "city": "Hong KONG",
+        "postalcode": "unknown",
+        "country": "China"
+      },
+      "identification_number": "unknown",
+      "tax_number": "unknown",
+      "phone": "unknown",
+      "email": "support@jlcpcb.com"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kralovhradecky kraj HRONOV 549 31",
+        "city": "CZECH REPUBLIC",
+        "postalcode": "unknown",
+        "country": "unknown"
+      },
+      "identification_number": "unknown",
+      "tax_number": "VAT No:CZ25284584",
+      "phone": "unknown",
+      "email": "nadela.mazura@deymed.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 598.2,
+    "amount_rounding": 0.0,
+    "amount": 598.2,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "unknown",
+    "lines": [
+      {
+        "name": "2-layer Bare Rigid printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 100.0,
+        "unit": "ks",
+        "unit_price": 1.95,
+        "ext_price": 195.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 195.0
+      },
+      {
+        "name": "2-layer Bare Rigid printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 60.0,
+        "unit": "ks",
+        "unit_price": 1.95,
+        "ext_price": 117.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 117.0
+      },
+      {
+        "name": "2-layer Bare Rigid printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 1.95,
+        "ext_price": 39.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 39.0
+      },
+      {
+        "name": "Stainless Steel Screws",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 5000.0,
+        "unit": "ks",
+        "unit_price": 0.0522,
+        "ext_price": 261.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 261.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Jialichuang 2731661A20240129184.pdf",
+  "time": 672.9808113574982
+}

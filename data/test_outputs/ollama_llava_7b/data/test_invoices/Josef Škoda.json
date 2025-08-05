@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2016-03-15",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "1188740",
+      "bank_code": "975011",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "HABNPLKR2XX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMENPROGRAMA DH",
+      "address": {
+        "street": "R. Ostravsk\u00e1 1630/24",
+        "city": "Praha 5, CZ",
+        "postalcode": "163 01",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "7492792",
+      "phone": "225 841 249",
+      "email": "info@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Faktoria",
+      "address": {
+        "street": "U zelen\u00e9 kopce",
+        "city": "Praha 7, CZ",
+        "postalcode": "150 63",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "8249925",
+      "phone": "225 841 249",
+      "email": "info@faktoria.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 203.0,
+    "amount_rounding": 0.0,
+    "amount": 203.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Hladov\u00e9 slo\u017een\u00ed",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 0.5,
+        "ext_price": 306.5,
+        "tax_class_id": 998.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 427.5
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Josef \u0160koda.pdf",
+  "time": 137.3280303478241
+}

@@ -1,0 +1,96 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "23.10.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "2128609 / 2128609",
+      "bank_code": "2128",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "2128"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Hudr\u00e1kova 533",
+        "city": "54931 Hronov",
+        "postalcode": "54931",
+        "country": "CZECH REPUBLIC"
+      },
+      "identification_number": "26257936",
+      "tax_number": "CZ26257936",
+      "phone": "(420) 493841298",
+      "email": "info@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Arrow Electronics Czech Republic s.r.o.",
+      "address": {
+        "street": "Hv\u011bzdova 1716/2b",
+        "city": "14900 Prague",
+        "postalcode": "14900",
+        "country": "CZECH REPUBLIC"
+      },
+      "identification_number": "24632605",
+      "tax_number": "CZ26257936",
+      "phone": "+420 739229934",
+      "email": "info@arrow.com"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Hudr\u00e1kova 533",
+        "city": "54931 Hronov",
+        "postalcode": "54931",
+        "country": "CZECH REPUBLIC"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 5993.0,
+    "amount_rounding": 0.0,
+    "amount": 5993.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Zener Diode Single 3Vv 5% 1000Hm 200mW Pkg:Box; Tape - packaging material",
+    "lines": [
+      {
+        "name": "DFLZ-3",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 3000.0,
+        "unit": "ks",
+        "unit_price": 1.71,
+        "ext_price": 5130.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5130.0
+      },
+      {
+        "name": "Tape",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 863.0,
+        "ext_price": 863.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 863.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ARROW 20043108.pdf",
+  "time": 672.9197490215302
+}

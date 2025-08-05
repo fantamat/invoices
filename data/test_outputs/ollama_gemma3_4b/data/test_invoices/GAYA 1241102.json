@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "04.06.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "SK71100000278",
+      "bank_code": "SK71100000278",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "GAYA s.r.o.",
+      "address": {
+        "street": "V\u00fdzbrojov\u00e1 23B",
+        "city": "036 01",
+        "postalcode": "036 01",
+        "country": "Slovensko"
+      },
+      "identification_number": "I\u010c DPH: SK202003863",
+      "tax_number": "202003863",
+      "phone": "0361910000",
+      "email": "ekon@gaya.sk"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kukradova 53",
+        "city": "036 01",
+        "postalcode": "036 01",
+        "country": "Slovensko"
+      },
+      "identification_number": "I\u010c DPH: SK2024584",
+      "tax_number": "2024584",
+      "phone": "0361910000",
+      "email": "ekon@gaya.sk"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 20.02,
+    "amount_rounding": 0.0,
+    "amount": 3.32,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Tovar/slu\u017eba",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "pcs",
+        "unit_price": 3.32,
+        "ext_price": 3.32,
+        "tax_class_id": 20.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3.32
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\GAYA 1241102.pdf",
+  "time": 114.418696641922
+}

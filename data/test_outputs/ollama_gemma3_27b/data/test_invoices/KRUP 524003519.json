@@ -1,0 +1,97 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "13.03.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "1001371/0300",
+      "bank_code": "55",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "524003519",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrnav\u00e1 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25258484",
+      "tax_number": "CZ25258484",
+      "phone": "491-433-383",
+      "email": "krup.ph@krup.cz"
+    },
+    "counterparty_info": {
+      "company_name": "KRUP s.r.o.",
+      "address": {
+        "street": "Centr\u00e1ln\u00ed v\u011bznice",
+        "city": "Praha",
+        "postalcode": "147 01",
+        "country": "Czech Republic"
+      },
+      "identification_number": "48066648",
+      "tax_number": "CZ48066648",
+      "phone": "272088888",
+      "email": "info@krup.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 12020.0,
+    "amount_rounding": 0.0,
+    "amount": 1234.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "PremiumColor HD st\u00edn\u011bn\u00fd kabel stereo 3.5mm - 3.5mm 3m",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 15.0,
+        "unit": "ks",
+        "unit_price": 68.2,
+        "ext_price": 1020.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1234.2
+      },
+      {
+        "name": "USB-C - USB-C kabel, opleten\u00fd 1m \u010dern\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 21.0,
+        "ext_price": 420.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 508.2
+      },
+      {
+        "name": "S\u00ed\u0165ov\u00fd adapt\u00e9r USB-C 20W (5V/3A) b\u00edl\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 19.0,
+        "ext_price": 190.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 229.9
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\KRUP 524003519.pdf",
+  "time": 774.098655462265
+}

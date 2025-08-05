@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "13.03.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "unknown",
+    "banking_info": {
+      "account_number": "1001371/0300, v.s.: 0001",
+      "bank_code": "CZK",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "1001371/0300",
+      "bic": "CZK"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Krupp s.r.o.",
+      "address": {
+        "street": "P\u0159\u00edhonick\u00e1 133",
+        "city": "Prague",
+        "postalcode": "1040",
+        "country": "Czechia"
+      },
+      "identification_number": "CZ4938458",
+      "tax_number": "2528458",
+      "phone": "272 088 889",
+      "email": "krupp.pro@krupp.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1rova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czechia"
+      },
+      "identification_number": "CZ4938458",
+      "tax_number": "2528458",
+      "phone": "272 088 889",
+      "email": "krupp.pro@krupp.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 274.97,
+    "amount_rounding": 0.0,
+    "amount": 274.97,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "prek.Krupp s.r.o. 3.5mm Kod. 3.5mm Prod. 3.5mm",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 274.97,
+        "ext_price": 274.97,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 274.97
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\KRUP 524003519.pdf",
+  "time": 202.05069661140442
+}

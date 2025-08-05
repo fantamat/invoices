@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "4. 9. 2019",
+    "due_date": "",
+    "taxable_supply_date": "4. 9. 2019",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "542 33 19 205",
+      "bank_code": "FKB",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "CZ5233192056543319",
+      "bic": "FKBECZPR"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "31. Hornov",
+        "city": "Prague",
+        "postalcode": "186 08",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284989",
+      "tax_number": "CZ25284989",
+      "phone": " +420 220 651 221",
+      "email": "sales@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "JOSEF SKODA",
+      "address": {
+        "street": "O\u0159ice 23",
+        "city": "Prague",
+        "postalcode": "186 08",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284989",
+      "tax_number": "CZ25284989",
+      "phone": " +420 220 651 221",
+      "email": "sales@deymed.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 19.5,
+    "amount_rounding": 0.0,
+    "amount": 19.5,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Pro veci z.h.",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 19.5,
+        "ext_price": 19.5,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 21.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Josef \u0160koda.pdf",
+  "time": 137.11174488067627
+}

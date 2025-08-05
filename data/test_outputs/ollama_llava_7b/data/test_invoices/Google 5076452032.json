@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "28/03/2018",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "54567890",
+      "bank_code": "123",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "GB00021",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Google",
+      "address": {
+        "street": "Street Name, House Number",
+        "city": "City",
+        "postalcode": "Postal Code",
+        "country": "Country"
+      },
+      "identification_number": "69160795",
+      "tax_number": "54234657857",
+      "phone": "00 00 00 000",
+      "email": "info@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "Kompania",
+      "address": {
+        "street": "Street Name, House Number",
+        "city": "City",
+        "postalcode": "Postal Code",
+        "country": "Country"
+      },
+      "identification_number": "10298356",
+      "tax_number": "2435675",
+      "phone": "00 00 00 000",
+      "email": "info@kompania.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 96.18,
+    "amount_rounding": 0.0,
+    "amount": 96.18,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Google",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 96.18,
+        "ext_price": 96.18,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 96.18
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Google 5076452032.pdf",
+  "time": 274.9634852409363
+}

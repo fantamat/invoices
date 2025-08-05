@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "10/03/2021",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "918",
+      "bank_code": "1574",
+      "constant_symbol": "",
+      "variable_symbol": "06",
+      "specific_symbol": "06",
+      "iban": "",
+      "bic": "ALBAEKFGX2B"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Fatura",
+      "address": {
+        "street": "Calea Fericilor",
+        "city": "Timisoara",
+        "postalcode": "30129",
+        "country": "Romania"
+      },
+      "identification_number": "111111111",
+      "tax_number": "XXX.XXXXX",
+      "phone": "1234567890",
+      "email": "a@b.com"
+    },
+    "counterparty_info": {
+      "company_name": "ABC",
+      "address": {
+        "street": "Street Name",
+        "city": "City Name",
+        "postalcode": "Postal Code",
+        "country": "Country Name"
+      },
+      "identification_number": "XXX.XXXXX",
+      "tax_number": "XXX.XXXXX",
+      "phone": "1234567890",
+      "email": "c@d.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 149.6,
+    "amount_rounding": 0.0,
+    "amount": 149.6,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Product Name",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 123.5,
+        "ext_price": 123.5,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 149.6
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alza 2977457665.pdf",
+  "time": 138.03352117538452
+}

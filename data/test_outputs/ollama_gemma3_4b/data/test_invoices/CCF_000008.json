@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "06/09/2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "180866",
+      "bank_code": "88866",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostics",
+      "address": {
+        "street": "418 601 285",
+        "city": "West Glen",
+        "postalcode": "88866",
+        "country": "AZ"
+      },
+      "identification_number": "180866",
+      "tax_number": "88866",
+      "phone": "56550140866",
+      "email": "wstglen@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "Deymed Diagnostics",
+      "address": {
+        "street": "418 601 285",
+        "city": "West Glen",
+        "postalcode": "88866",
+        "country": "AZ"
+      },
+      "identification_number": "180866",
+      "tax_number": "88866",
+      "phone": "56550140866",
+      "email": "wstglen@deymed.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 49.77,
+    "amount_rounding": 0.0,
+    "amount": 49.77,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "FUEL",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 15.0866,
+        "ext_price": 15.0866,
+        "tax_class_id": 1001.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 15.0866
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000008.pdf",
+  "time": 121.17723393440247
+}

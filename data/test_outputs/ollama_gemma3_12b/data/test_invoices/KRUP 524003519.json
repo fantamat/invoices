@@ -1,0 +1,181 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "13.03.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "1001371/0300",
+      "bank_code": "272088",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deyme Diagnostics s.r.o",
+      "address": {
+        "street": "Kutn\u00e1\u0159ova 549/31",
+        "city": "Hronov",
+        "postalcode": "0500",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 533 329 111",
+      "email": "info@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Krup Computer s.r.o",
+      "address": {
+        "street": "L\u00ed\u0161ensk\u00e1 77/59",
+        "city": "Prague",
+        "postalcode": "10000",
+        "country": "Czech Republic"
+      },
+      "identification_number": "49366654",
+      "tax_number": "CZ49366654",
+      "phone": "272 088 888",
+      "email": "info@krup.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1324.0,
+    "amount_rounding": 0.0,
+    "amount": 1324.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      },
+      {
+        "name": "PremiumCord 5m, \u0161ed\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 89.0,
+        "ext_price": 89.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 89.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\KRUP 524003519.pdf",
+  "time": 400.37008833885193
+}

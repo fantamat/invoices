@@ -1,0 +1,60 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "4.9.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "voucher",
+    "banking_info": {
+      "account_number": "25284684",
+      "bank_code": "2210",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "310 00 Plze\u0148",
+        "postalcode": "310 00",
+        "country": "Czech Republic"
+      },
+      "identification_number": "252284684",
+      "tax_number": "CZ252284684",
+      "phone": "372312111",
+      "email": "info@dey med.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Josef Skola",
+      "address": {
+        "street": "542 33 Rychnov",
+        "city": "Rychnov",
+        "postalcode": "542 33",
+        "country": "Czech Republic"
+      },
+      "identification_number": "87073503",
+      "tax_number": "605 16 2211",
+      "phone": "605 16 22 11",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 19500.0,
+    "amount_rounding": 0.0,
+    "amount": 21000.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": []
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Josef \u0160koda.pdf",
+  "time": 459.6613266468048
+}

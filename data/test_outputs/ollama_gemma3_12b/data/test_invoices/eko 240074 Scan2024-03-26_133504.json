@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "19.03.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "25284584",
+      "bank_code": "2005",
+      "constant_symbol": "",
+      "variable_symbol": "240074",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "2005"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "CR"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "491 452 841",
+      "email": "deymed@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Kovo\u010dist\u00edrna, s.r.o.",
+      "address": {
+        "street": "T.G.Masaryka 295",
+        "city": "\u010cesk\u00e1 Skalice",
+        "postalcode": "552 03",
+        "country": "CZ"
+      },
+      "identification_number": "655708",
+      "tax_number": "CZ655708",
+      "phone": "491 212 311",
+      "email": "kovocist\u00edrna@kovocist\u00edrna.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 29039.0,
+    "amount_rounding": 0.0,
+    "amount": 29039.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Povrchov\u00e9 \u00fapravy",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 13885.0,
+        "ext_price": 13885.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 16769.0
+      },
+      {
+        "name": "Povrchov\u00e9 \u00fapravy",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 10114.0,
+        "ext_price": 10114.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12135.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\eko 240074 Scan2024-03-26_133504.pdf",
+  "time": 272.8269724845886
+}

@@ -1,0 +1,181 @@
+{
+  "invoice": {
+    "type": "issued",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29.05.2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "115-8152550227",
+      "bank_code": "0100",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ALIEN technology s.r.o.",
+      "address": {
+        "street": "Velk\u00fd D\u0159ev\u00ed\u010d 91",
+        "city": "549 34 Hronov 4",
+        "postalcode": "549 34",
+        "country": "Czech Republic"
+      },
+      "identification_number": "07521341",
+      "tax_number": "CZ07521341",
+      "phone": "491481285",
+      "email": "obchod@alien.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "549 31 Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 45659.96,
+    "amount_rounding": 0.0,
+    "amount": 45660.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "73-100-157 DR\u017d\u00c1K KRYT\u016e XT LEV\u00dd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 238.8,
+        "ext_price": 4776.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5778.96
+      },
+      {
+        "name": "73-100-158 DR\u017d\u00c1K KRYT\u016e XT PRAV\u00dd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 238.8,
+        "ext_price": 4776.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5778.96
+      },
+      {
+        "name": "41-098-58 VYPN\u00cdNAC TEPLOTA",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 40.0,
+        "unit": "ks",
+        "unit_price": 82.16,
+        "ext_price": 3286.4,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3976.54
+      },
+      {
+        "name": "41-098-59 TEPL.P\u0158ECHODU",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 80.0,
+        "unit": "ks",
+        "unit_price": 47.2,
+        "ext_price": 3776.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4566.96
+      },
+      {
+        "name": "REMENICE J\u0158EMEN\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 80.0,
+        "unit": "ks",
+        "unit_price": 43.8,
+        "ext_price": 3504.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4240.0
+      },
+      {
+        "name": "KABEL 4X0,5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 200.0,
+        "unit": "ks",
+        "unit_price": 19.1,
+        "ext_price": 3820.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4622.2
+      },
+      {
+        "name": "\u0160ROUBY M6X16",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 400.0,
+        "unit": "ks",
+        "unit_price": 4.8,
+        "ext_price": 1920.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2323.2
+      },
+      {
+        "name": "\u0160ROUBY M5X12",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 400.0,
+        "unit": "ks",
+        "unit_price": 4.3,
+        "ext_price": 1720.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2082.4
+      },
+      {
+        "name": "KRYT BO\u010cN\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 260.4,
+        "ext_price": 5208.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 6301.68
+      },
+      {
+        "name": "KRYT SPODN\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 189.6,
+        "ext_price": 3792.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4588.32
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000002.pdf",
+  "time": 1178.1121037006378
+}

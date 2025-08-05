@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "03/12/2015",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "987645",
+      "bank_code": "123",
+      "constant_symbol": "",
+      "variable_symbol": "12",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Cash",
+      "address": {
+        "street": "123 Main St.",
+        "city": "Anytown",
+        "postalcode": "1234",
+        "country": "United States"
+      },
+      "identification_number": "1234567890",
+      "tax_number": "0123456789",
+      "phone": "555-555",
+      "email": "john@example.com"
+    },
+    "counterparty_info": {
+      "company_name": "Bob's Receivables",
+      "address": {
+        "street": "456 2nd St.",
+        "city": "Othertown",
+        "postalcode": "9876",
+        "country": "United States"
+      },
+      "identification_number": "1234567890",
+      "tax_number": "023456789",
+      "phone": "555-555",
+      "email": "bob@example.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 120.0,
+    "amount_rounding": 0.0,
+    "amount": 120.0,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "Receipt for cash purchase of a product XYZ at Bob's Receivables on 03/12/2015.",
+    "lines": [
+      {
+        "name": "XYZ",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 120.0,
+        "ext_price": 120.0,
+        "tax_class_id": 11.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 120.0
+      },
+      {
+        "name": "Tax",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 12.0,
+        "ext_price": 12.0,
+        "tax_class_id": 11.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000008.pdf",
+  "time": 161.68397665023804
+}

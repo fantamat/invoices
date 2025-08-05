@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2016-05-24",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "ALLIANCE BANK",
+      "bank_code": "BHN99",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "018",
+      "iban": "",
+      "bic": "BHNXXX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymeed",
+      "address": {
+        "street": "Calle Caimito N\u00ba 50 - Boca Raton",
+        "city": "Florida",
+        "postalcode": "33487",
+        "country": "Usa"
+      },
+      "identification_number": "1234567890",
+      "tax_number": "1234567890",
+      "phone": "+1 555-555",
+      "email": "[redacted]"
+    },
+    "counterparty_info": {
+      "company_name": "Alfa",
+      "address": {
+        "street": "Calle Caimito N\u00ba 50 - Boca Raton",
+        "city": "Florida",
+        "postalcode": "33487",
+        "country": "Usa"
+      },
+      "identification_number": "1234567890",
+      "tax_number": "1234567890",
+      "phone": "+1 555-555",
+      "email": "[redacted]"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 27.0,
+    "amount_rounding": 0.0,
+    "amount": 27.0,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Deymeed",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 4.5,
+        "ext_price": 27.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 28.93
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALUPA FVS-1111224.pdf",
+  "time": 145.54908967018127
+}

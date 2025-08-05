@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "24/05/2013",
+    "due_date": "",
+    "taxable_supply_date": "28/05/2013",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "XXXXXX",
+      "bank_code": "XXXXXX",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed",
+      "address": {
+        "street": "Ctra. De l'Espera - 56-58",
+        "city": "Barcelona",
+        "postalcode": "08730",
+        "country": "ES"
+      },
+      "identification_number": "A2159646",
+      "tax_number": "A-2159646",
+      "phone": "+34 937 008 050",
+      "email": "info@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "RICARDO PALACIOS SA DE C.V.",
+      "address": {
+        "street": "Calle 31 #406 Colonia San Rafael - CP 06870",
+        "city": "Mexico DF",
+        "postalcode": "06870",
+        "country": "MX"
+      },
+      "identification_number": "A1234567",
+      "tax_number": "A-1234567",
+      "phone": "+52 55 8089 2029",
+      "email": "info@ricardopalacios.com.mx"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 341.67,
+    "amount_rounding": 0.0,
+    "amount": 345.0,
+    "currency_id": "EUR",
+    "vat_currency_id": "EUR",
+    "description": "VAT INVOICE",
+    "lines": [
+      {
+        "name": "PRODUCTO X",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 290.0,
+        "ext_price": 290.0,
+        "tax_class_id": 245.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 341.67
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\KRUP 524003519.pdf",
+  "time": 739.8630132675171
+}

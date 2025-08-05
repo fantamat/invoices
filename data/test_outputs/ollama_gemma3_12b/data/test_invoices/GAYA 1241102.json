@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "04.06.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "0000",
+      "bank_code": "3333",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "SKOO00000000004",
+      "bic": "fiobank"
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "GAYA, s.r.o.",
+      "address": {
+        "street": "Hlavn\u00e1 23b",
+        "city": "Martin",
+        "postalcode": "03301",
+        "country": "Slovakia"
+      },
+      "identification_number": "36 430 307",
+      "tax_number": "SK022003863",
+      "phone": "0905 550 394",
+      "email": "gaya@gaya.sk"
+    },
+    "counterparty_info": {
+      "company_name": "Deymed Diagnostik",
+      "address": {
+        "street": "K\u00fadeln\u00edcka 533",
+        "city": "N\u00e1mestovo",
+        "postalcode": "09034",
+        "country": "Slovakia"
+      },
+      "identification_number": "25284584",
+      "tax_number": "N/A",
+      "phone": "N/A",
+      "email": "N/A"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 23.2,
+    "amount_rounding": 0.0,
+    "amount": 23.2,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "voila.mzsk",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 1.16,
+        "ext_price": 23.2,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 23.2
+      },
+      {
+        "name": "voila.mzsk",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 1.16,
+        "ext_price": 23.2,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 23.2
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\GAYA 1241102.pdf",
+  "time": 239.7024791240692
+}

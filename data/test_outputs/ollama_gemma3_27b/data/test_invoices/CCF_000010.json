@@ -1,0 +1,84 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "May 29, 2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "card",
+    "banking_info": {
+      "account_number": "516893****",
+      "bank_code": "6746",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "AliExpress",
+      "address": {
+        "street": "Kudrnacova 533 / Hronov",
+        "city": "Hradec Kralove Region",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "3055266305973570",
+      "tax_number": "VAT included",
+      "phone": "+420 702228816",
+      "email": "unknown"
+    },
+    "counterparty_info": {
+      "company_name": "AutoGear Pro Store",
+      "address": {
+        "street": "unknown",
+        "city": "unknown",
+        "postalcode": "unknown",
+        "country": "unknown"
+      },
+      "identification_number": "unknown",
+      "tax_number": "unknown",
+      "phone": "unknown",
+      "email": "unknown"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrnacova 533 / Hronov",
+        "city": "Hradec Kralove Region",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "phone": "+420 702228816",
+      "email": ""
+    },
+    "amount_wo_rounding": 336.87,
+    "amount_rounding": 0.0,
+    "amount": 336.87,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "RFC 3 Button Flip Key Case Car Key",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 3.0,
+        "unit": "ks",
+        "unit_price": 112.29,
+        "ext_price": 336.87,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 0.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000010.pdf",
+  "time": 538.0229833126068
+}

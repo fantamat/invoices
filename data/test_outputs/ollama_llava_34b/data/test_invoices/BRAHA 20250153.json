@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "14.03.2025",
+    "due_date": "",
+    "taxable_supply_date": "14.03.2025",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "27-0388170267/0100",
+      "bank_code": "Komer\u010dn\u00ed banka Praha",
+      "constant_symbol": "0308",
+      "variable_symbol": "20250153",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DI\u010c:CZ25284584 I\u010c:25284584",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "DI\u010c:CZ25284584 I\u010c:25284584",
+      "tax_number": "2129.40",
+      "phone": "737 261 686",
+      "email": "deymed@tiscali.cz"
+    },
+    "counterparty_info": {
+      "company_name": "BRAHA plasty, s.r.o.",
+      "address": {
+        "street": "Hejtm\u00e1nkovice \u010dp. 2",
+        "city": "55001 Broumov",
+        "postalcode": "",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "DI\u010c:CZ25928571 I\u010c:25928571",
+      "tax_number": "0.00",
+      "phone": "",
+      "email": "braha.plasty@tiscali.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 12269.4,
+    "amount_rounding": 0.0,
+    "amount": 12378.05,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "V\u00fdr.j\u00e1dra poz.03A, 064-1 Kryt stimul. c\u00edvky a9998o000280p000280",
+    "lines": [
+      {
+        "name": "V\u00fdroba j\u00e1dra poz.03A 064-1 Kryt stimul. c\u00edvky a9998o000280p000280",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 10140.0,
+        "ext_price": 10140.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12378.05
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\BRAHA 20250153.pdf",
+  "time": 1430.595890045166
+}

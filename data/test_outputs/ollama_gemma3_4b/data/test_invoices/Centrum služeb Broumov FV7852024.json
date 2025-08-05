@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29.10.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "CZ103000000284129104",
+      "bank_code": "CEKOCZPP",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u0159ova 533",
+        "city": "549 31",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ284584",
+      "phone": "+420 225001156",
+      "email": "info@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "TISKARNA BROUMOV s.r.o.",
+      "address": {
+        "street": "Kittlerova 225",
+        "city": "550 01",
+        "postalcode": "550 01",
+        "country": "Czech Republic"
+      },
+      "identification_number": "28796047",
+      "tax_number": "CZ28796047",
+      "phone": "+420 225001156",
+      "email": "info@tiskar.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 150000.0,
+    "amount_rounding": 0.0,
+    "amount": 150000.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "tisk",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 150000.0,
+        "unit": "ks",
+        "unit_price": 25000.0,
+        "ext_price": 375000.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 375000.0
+      },
+      {
+        "name": "tisk",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 150000.0,
+        "unit": "ks",
+        "unit_price": 25000.0,
+        "ext_price": 375000.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 375000.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Centrum slu\u017eeb Broumov FV7852024.pdf",
+  "time": 124.19240689277649
+}

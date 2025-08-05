@@ -1,0 +1,109 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "20.02.2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "2171532/0800",
+      "bank_code": "Ceska sporitelna a.s.",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alza.cz a.s.",
+      "address": {
+        "street": "Jankovcova 1522/53",
+        "city": "17000 Praha 7",
+        "postalcode": "27082440",
+        "country": "Czech Republic"
+      },
+      "identification_number": "27082440",
+      "tax_number": "CZ27082440",
+      "phone": "+420225340111",
+      "email": "kuzelka@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov 4",
+        "postalcode": "54934",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420770315075",
+      "email": "kuzelka@deymed.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 395.0,
+    "amount_rounding": 0.0,
+    "amount": 395.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Ventil\u00e1tor do PC ARCTIC S12038-4K",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 280.17,
+        "ext_price": 280.17,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 339.0
+      },
+      {
+        "name": "Chr\u00e1ni\u010d ARCTIC Fan Grill 120mm",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 46.28,
+        "ext_price": 46.28,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 56.0
+      },
+      {
+        "name": "SL190r Nehmotn\u00fd produkt Doprava - AlzaBox",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 57.02,
+        "ext_price": 57.02,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 69.0
+      },
+      {
+        "name": "CBs12038a1: 1,5 K\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 0.0,
+        "ext_price": -57.02,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": -69.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALZA 2976077985.pdf",
+  "time": 1016.3608167171478
+}

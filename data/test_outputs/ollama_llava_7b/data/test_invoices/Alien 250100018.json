@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2019-03-14",
+    "due_date": "",
+    "taxable_supply_date": "2019-03-14",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "xxxxx 0000 xx",
+      "bank_code": "60-000",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "A LIEN TECHNOLOGIES (PVT) LTD.",
+      "address": {
+        "street": "No. 6, 2nd floor, Janta Complex, P-3, Sector-14",
+        "city": "Gurgaon",
+        "postalcode": "Haryana - 122008",
+        "country": "India"
+      },
+      "identification_number": "Not provided",
+      "tax_number": "04AAF265A",
+      "phone": "91-7230XXXXXX",
+      "email": "info@alien.in"
+    },
+    "counterparty_info": {
+      "company_name": "Panacea",
+      "address": {
+        "street": "Unit No. 6B, Panacea House, C-12, Sector-14",
+        "city": "Gurgaon",
+        "postalcode": "Haryana - 122008",
+        "country": "India"
+      },
+      "identification_number": "5907XXXXX",
+      "tax_number": "123456789",
+      "phone": "91-9655XXXXXX",
+      "email": "xyz@xyz.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 230.0,
+    "amount_rounding": 0.0,
+    "amount": 1112.45,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "",
+    "lines": [
+      {
+        "name": "AJAY KUMAR",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 980.65,
+        "ext_price": 980.65,
+        "tax_class_id": 23456789.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1969.2
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alien 250100018.pdf",
+  "time": 202.6972758769989
+}

@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "18.6.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "253065240600",
+      "bank_code": "MONETA Money Bank",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Aliea s. r. o.",
+      "address": {
+        "street": "530 02 Mikolovice",
+        "city": "CZ",
+        "postalcode": "530 02",
+        "country": "Czechia"
+      },
+      "identification_number": "812254",
+      "tax_number": "253065240600",
+      "phone": "777 489 777",
+      "email": "info@ehlinik.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "549 31 Hronov",
+        "city": "Czechia",
+        "postalcode": "549 31",
+        "country": "Czechia"
+      },
+      "identification_number": "2528454",
+      "tax_number": "2528454",
+      "phone": "777 489 777",
+      "email": "info@ehlinik.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 7842.07,
+    "amount_rounding": 0.0,
+    "amount": 7842.07,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d 10x48x9000 100mm",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 100.0,
+        "unit": "ks",
+        "unit_price": 784.27,
+        "ext_price": 7842.7,
+        "tax_class_id": 22000000.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 7842.7
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d 10x48x9000 50mm",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 50.0,
+        "unit": "ks",
+        "unit_price": 2479.96,
+        "ext_price": 12399.8,
+        "tax_class_id": 22000000.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12399.8
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALUPA FVS-1111224.pdf",
+  "time": 203.93030452728271
+}

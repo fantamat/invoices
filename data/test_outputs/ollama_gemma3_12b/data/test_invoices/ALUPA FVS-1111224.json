@@ -1,0 +1,145 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "4.6.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "Money Bank 250654/0600",
+      "bank_code": "Money Bank",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alupa s.r.o.",
+      "address": {
+        "street": "\u010cP.P.",
+        "city": "Mikuoluvce",
+        "postalcode": "26852",
+        "country": "CZ"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "777 489 777",
+      "email": "info@alien.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrnova",
+        "city": "Hronov",
+        "postalcode": "533",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "DEYMED Diagnostic s.r.o.",
+      "email": "DEYMED Diagnostic s.r.o."
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 15519.62,
+    "amount_rounding": 0.0,
+    "amount": 15519.62,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 175.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 8748.25,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 10611.92
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 180.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 9000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 10920.0
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 230.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 11497.7,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 13877.08
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 175.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 8748.25,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 10611.92
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 36.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 1799.64,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2169.57
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 174.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 8748.26,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 10611.94
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 230.0,
+        "unit": "ks",
+        "unit_price": 49.99,
+        "ext_price": 11497.7,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 13877.08
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALUPA FVS-1111224.pdf",
+  "time": 357.81103110313416
+}

@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "14-Mar-2023",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "27 945",
+      "bank_code": "000",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED",
+      "address": {
+        "street": "123",
+        "city": "KARACHI",
+        "postalcode": "75286",
+        "country": "PAKISTAN"
+      },
+      "identification_number": "CX 984",
+      "tax_number": "6666-7777-8888-8888",
+      "phone": "+92314567890",
+      "email": "info@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "WILLPRESS",
+      "address": {
+        "street": "123",
+        "city": "KARACHI",
+        "postalcode": "75286",
+        "country": "PAKISTAN"
+      },
+      "identification_number": "2098",
+      "tax_number": "CX 123456",
+      "phone": "+92314567890",
+      "email": "info@willpress.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1500.0,
+    "amount_rounding": 0.0,
+    "amount": 1500.0,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Invoice Amount",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 750.0,
+        "ext_price": 1500.0,
+        "tax_class_id": 164.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1950.0
+      },
+      {
+        "name": "VAT/TAX",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 2475.0,
+        "ext_price": 2475.0,
+        "tax_class_id": 164.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2905.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000010.pdf",
+  "time": 132.3008689880371
+}

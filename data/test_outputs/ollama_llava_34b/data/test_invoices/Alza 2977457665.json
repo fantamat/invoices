@@ -1,0 +1,169 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "AC83-AB65-CA85-0103",
+    "delivery_note_number": "",
+    "issue_date": "2017/04/19",
+    "due_date": "",
+    "taxable_supply_date": "2017/04/19",
+    "deduction_date": "",
+    "payment_method": "card",
+    "banking_info": {
+      "account_number": "1536-2518-6564-2527",
+      "bank_code": "104-0907",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "AE32-AB12-CA95-0075",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Aliie",
+      "address": {
+        "street": "863 South Street",
+        "city": "New York City",
+        "postalcode": "10017",
+        "country": "United States of America"
+      },
+      "identification_number": "AE21-AB45-CA98-0103",
+      "tax_number": "A06-AB12-CA95-0075",
+      "phone": "+1(212) 645-1001",
+      "email": "aliie@aliie.com"
+    },
+    "counterparty_info": {
+      "company_name": "Wonder Corp",
+      "address": {
+        "street": "123 Main Street",
+        "city": "San Francisco",
+        "postalcode": "94107",
+        "country": "United States of America"
+      },
+      "identification_number": "AC12-AB65-CA85-0103",
+      "tax_number": "A21-AB45-CA98-0103",
+      "phone": "+1(415) 867-5309",
+      "email": "wondercorp@aliie.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 32.0,
+    "amount_rounding": 0.0,
+    "amount": 32.0,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "This is a sample receipt for demonstration purposes only. It contains fictional data and should not be considered an actual invoice or receipt from any business.",
+    "lines": [
+      {
+        "name": "Glass of wine",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 8.0,
+        "ext_price": 8.0,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 8.42
+      },
+      {
+        "name": "Glass of water",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 3.0,
+        "ext_price": 3.0,
+        "tax_class_id": 4.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3.25
+      },
+      {
+        "name": "Glass of soda",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 4.0,
+        "ext_price": 4.0,
+        "tax_class_id": 5.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4.32
+      },
+      {
+        "name": "Glass of juice",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 6.0,
+        "ext_price": 6.0,
+        "tax_class_id": 3.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 6.48
+      },
+      {
+        "name": "Dessert",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 2.0,
+        "ext_price": 2.0,
+        "tax_class_id": 7.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2.24
+      },
+      {
+        "name": "Main course",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 15.0,
+        "ext_price": 15.0,
+        "tax_class_id": 2.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 16.35
+      },
+      {
+        "name": "Appetizer",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 5.0,
+        "ext_price": 5.0,
+        "tax_class_id": 8.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5.29
+      },
+      {
+        "name": "Side dish",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 7.0,
+        "ext_price": 7.0,
+        "tax_class_id": 9.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 7.53
+      },
+      {
+        "name": "Beverage package",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 18.0,
+        "ext_price": 18.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 20.24
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alza 2977457665.pdf",
+  "time": 1411.1148195266724
+}

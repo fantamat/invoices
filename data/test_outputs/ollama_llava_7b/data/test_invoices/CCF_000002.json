@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "06-02-23",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "1795",
+      "bank_code": "0001",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "NL010081066",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Farmacia Danova BV",
+      "address": {
+        "street": "Farmacia danova bv\nLtd. Zoetermeindestraat 23\n1095 AA AMSTELVEN\nThe Netherlands",
+        "city": "Amstelveen",
+        "postalcode": "1095 AA",
+        "country": "Netherlands"
+      },
+      "identification_number": "Farmacia danova bv\nKvK: 52663723",
+      "tax_number": "BTW NL010081066",
+      "phone": "+31 (0) 498 502",
+      "email": "info@alien.nl"
+    },
+    "counterparty_info": {
+      "company_name": "Farmacia danova bv",
+      "address": {
+        "street": "Farmacia danova bv\nLtd. Zoetermeindestraat 23\n1095 AA AMSTELVEN\nThe Netherlands",
+        "city": "Amstelveen",
+        "postalcode": "1095 AA",
+        "country": "Netherlands"
+      },
+      "identification_number": "Farmacia danova bv\nKvK: 52663723",
+      "tax_number": "BTW NL010081066",
+      "phone": "+31 (0) 498 502",
+      "email": "info@alien.nl"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 98.17,
+    "amount_rounding": 0.0,
+    "amount": 100.0,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Farmacia danova bv\nKvK: 52663723",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 100.0,
+        "ext_price": 100.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 100.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000002.pdf",
+  "time": 162.82340598106384
+}

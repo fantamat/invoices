@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29/01/2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "unknown",
+    "banking_info": {
+      "account_number": "uunknow",
+      "bank_code": "uunknow",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "uunknow"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o",
+      "address": {
+        "street": "Krajlovsk\u00e1",
+        "city": "Krajlov",
+        "postalcode": "539 01",
+        "country": "Czech Republic"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "60803451",
+      "email": "email.mazura@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "JLCPEB",
+      "address": {
+        "street": "Unit 21, 28hf,metropole square",
+        "city": "HONG KONG",
+        "postalcode": "uunknow",
+        "country": "CHINA"
+      },
+      "identification_number": "77503008345",
+      "tax_number": "uunknow",
+      "phone": "uunknow",
+      "email": "support@jlpcb.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 539.0,
+    "amount_rounding": 0.0,
+    "amount": 500.0,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "2 layer Bare Rigid printed colour board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 500.0,
+        "ext_price": 500.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 500.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Jialichuang 2731661A20240129184.pdf",
+  "time": 125.55716633796692
+}

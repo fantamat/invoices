@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "05-24-19",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "76308",
+      "bank_code": "JLPC",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "ABC INDIA PVT. LTD.",
+      "address": {
+        "street": "GULAB LANE,",
+        "city": "DELHI-110 03",
+        "postalcode": "11008",
+        "country": "INDIA"
+      },
+      "identification_number": "123456789",
+      "tax_number": "10",
+      "phone": "88-888-888",
+      "email": "abcd@xyz.com"
+    },
+    "counterparty_info": {
+      "company_name": "JLPC",
+      "address": {
+        "street": "D-64,",
+        "city": "DELHI-110 03",
+        "postalcode": "11008",
+        "country": "INDIA"
+      },
+      "identification_number": "23456789",
+      "tax_number": "11",
+      "phone": "90-900-900",
+      "email": "jlpc@abc.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1920.0,
+    "amount_rounding": 0.0,
+    "amount": 1920.0,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "SERVICES RENDERED",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1920.0,
+        "ext_price": 1920.0,
+        "tax_class_id": 4.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1920.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Jialichuang 2731661A20240129184.pdf",
+  "time": 119.52783679962158
+}

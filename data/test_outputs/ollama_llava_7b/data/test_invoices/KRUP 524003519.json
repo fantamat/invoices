@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "02-01-2023",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "858 967 884",
+      "bank_code": "BANCO SANTANDER SERVICIOS",
+      "constant_symbol": "",
+      "variable_symbol": "01",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "ENTIDAD DE LA UNIVERSAL DEL RIO",
+      "address": {
+        "street": "C/ San Francisco, 135-1, Edificio 2400-A",
+        "city": "Las Rozas",
+        "postalcode": "28271",
+        "country": "SPAIN"
+      },
+      "identification_number": "N/A",
+      "tax_number": "N/A",
+      "phone": "N/A",
+      "email": "N/A"
+    },
+    "counterparty_info": {
+      "company_name": "Entidad de la Universidad del R\u00edo",
+      "address": {
+        "street": "C/ San Francisco, 135-1, Edificio 2400-A",
+        "city": "Las Rozas",
+        "postalcode": "28271",
+        "country": "SPAIN"
+      },
+      "identification_number": "N/A",
+      "tax_number": "N/A",
+      "phone": "N/A",
+      "email": "N/A"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 4.65,
+    "amount_rounding": 0.0,
+    "amount": 4.65,
+    "currency_id": "EUR",
+    "vat_currency_id": "EUR",
+    "description": "N/A",
+    "lines": [
+      {
+        "name": "FOTO DE ARTE E INTERES",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 0.97,
+        "ext_price": 0.97,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.68,
+        "total_with_vat": 1.34
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\KRUP 524003519.pdf",
+  "time": 151.44765448570251
+}

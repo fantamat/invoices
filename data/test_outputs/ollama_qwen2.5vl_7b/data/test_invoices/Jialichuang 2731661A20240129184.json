@@ -1,0 +1,121 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29/01/2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "2731661A202401291843773",
+      "bank_code": "JLCPCB",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "JLCPCBHKXXX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "No.2 On Yiu Street, Shatin, New Territories",
+        "city": "Hong Kong",
+        "postalcode": "China",
+        "country": "Hong Kong"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "608034351",
+      "email": "mazura@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "JLCPCB",
+      "address": {
+        "street": "Unit 21, 28/F, Metropole Square",
+        "city": "Shatin",
+        "postalcode": "New Territories",
+        "country": "China"
+      },
+      "identification_number": "W202401291843773",
+      "tax_number": "W202401291843773",
+      "phone": "+86 755 23919769",
+      "email": "support@jlcppcb.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 255.97,
+    "amount_rounding": 0.0,
+    "amount": 255.97,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "2-layer Bare Rigid Printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 19.5,
+        "ext_price": 19.5,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 19.5
+      },
+      {
+        "name": "2-layer Bare Rigid Printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 10.5,
+        "ext_price": 21.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 21.0
+      },
+      {
+        "name": "4-layer Bare Rigid Printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 22.75,
+        "ext_price": 45.5,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 45.5
+      },
+      {
+        "name": "2-layer Bare Rigid Printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 3.3,
+        "ext_price": 3.3,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3.3
+      },
+      {
+        "name": "2-layer Bare Rigid Printed circuit board",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 4.0,
+        "unit": "ks",
+        "unit_price": 42.73,
+        "ext_price": 170.92,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 170.92
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Jialichuang 2731661A20240129184.pdf",
+  "time": 338.72604155540466
+}

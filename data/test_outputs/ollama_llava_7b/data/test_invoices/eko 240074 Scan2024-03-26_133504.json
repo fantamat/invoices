@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "1912071678",
+    "external_invoice_number": "2018/001",
+    "delivery_note_number": "",
+    "issue_date": "02.03.2019",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "1912071678",
+      "bank_code": "5946",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "PL01 0016 1001 00129",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ALLIEN STUDENTS IN POLAND",
+      "address": {
+        "street": "ul. 3 Maja, nr.14A",
+        "city": "Krak\u00f3w",
+        "postalcode": "31-260",
+        "country": "Poland"
+      },
+      "identification_number": "NIP: 859167596, REGON: 36426095",
+      "tax_number": "VAT: PL1912071678",
+      "phone": "tel. 12 123 123",
+      "email": "e-mail: aliens@alien.com.pl"
+    },
+    "counterparty_info": {
+      "company_name": "Tytu\u0142",
+      "address": {
+        "street": "ul. Przejazna",
+        "city": "Krak\u00f3w",
+        "postalcode": "31-260",
+        "country": "Poland"
+      },
+      "identification_number": "NIP: 594695187, REGON: 321922591",
+      "tax_number": "VAT: PL01 0016 1001 00129",
+      "phone": "tel. 12 123 123",
+      "email": "e-mail: tytul@tytul.com.pl"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 496.5,
+    "amount_rounding": 0.0,
+    "amount": 496.5,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "Ubezpieczenie pracownika na zlecie w Polsce",
+    "lines": [
+      {
+        "name": "Ubezpieczenie pracownika na zlecie w Polsce",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 360.0,
+        "ext_price": 360.0,
+        "tax_class_id": 23.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 496.5
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\eko 240074 Scan2024-03-26_133504.pdf",
+  "time": 169.31097054481506
+}

@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "0123-0000",
+    "delivery_note_number": "",
+    "issue_date": "2014-10-31",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "1596785216",
+      "bank_code": "1363724908",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "Frontex Agency",
+      "address": {
+        "street": "Apartment 56",
+        "city": "New York City",
+        "postalcode": "12345",
+        "country": "United States of America"
+      },
+      "identification_number": "0000-0000-0000-0000-00000000",
+      "tax_number": "123456789",
+      "phone": "+00 000 00 00",
+      "email": "none@none.com"
+    },
+    "counterparty_info": {
+      "company_name": "Nub Agencies Sdn Bhd",
+      "address": {
+        "street": "Apartment 56",
+        "city": "New York City",
+        "postalcode": "12345",
+        "country": "United States of America"
+      },
+      "identification_number": "0000-0000-0000-0000-00000000",
+      "tax_number": "123456789",
+      "phone": "+00 000 00 00",
+      "email": "none@none.com"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 234.56,
+    "amount_rounding": 0.0,
+    "amount": 234.56,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "None",
+    "lines": [
+      {
+        "name": "Item",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 234.56,
+        "ext_price": 234.56,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 234.56
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\GAYA 1241102.pdf",
+  "time": 739.4777228832245
+}

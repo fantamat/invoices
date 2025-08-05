@@ -1,0 +1,133 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2024-09-18",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "253860399/1100",
+      "bank_code": "1100",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Azt s.r.o.",
+      "address": {
+        "street": "\u0158\u00edpsk\u00e1 960/9a",
+        "city": "627 00 Brno",
+        "postalcode": "627 00",
+        "country": "Czech Republic"
+      },
+      "identification_number": "CZ25384611",
+      "tax_number": "CZ25384611",
+      "phone": "+42053221905",
+      "email": "azt@azt.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Reymondin s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "54931 Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 30.0,
+    "amount_rounding": 0.0,
+    "amount": 132.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "K\u00f3d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 30.0,
+        "unit": "ks",
+        "unit_price": 20.0,
+        "ext_price": 600.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 726.0
+      },
+      {
+        "name": "A-A5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 169.0,
+        "ext_price": 169.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 204.0
+      },
+      {
+        "name": "A-A5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 169.0,
+        "ext_price": 169.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 204.0
+      },
+      {
+        "name": "K\u00f3d",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 500.0,
+        "ext_price": 1250.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1500.0
+      },
+      {
+        "name": "A-A5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 169.0,
+        "ext_price": 169.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 204.0
+      },
+      {
+        "name": "A-A5",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 169.0,
+        "ext_price": 169.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 204.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\AZT 202400381.pdf",
+  "time": 421.25190830230713
+}

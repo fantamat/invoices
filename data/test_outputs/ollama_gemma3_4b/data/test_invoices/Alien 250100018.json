@@ -1,0 +1,181 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "29.04.2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "1782238221",
+      "bank_code": "10180035",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "CZ161018003547822147",
+      "bic": "COZACCZPR"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alien technology s.r.o.",
+      "address": {
+        "street": "Velk\u00fd D\u011bv\u00edn 91",
+        "city": "Hronov",
+        "postalcode": "549 34",
+        "country": "Czech Republic"
+      },
+      "identification_number": "CZ7521341",
+      "tax_number": "CZ7521341",
+      "phone": "+420 481 2198",
+      "email": "obchod@alien.cz"
+    },
+    "counterparty_info": {
+      "company_name": "D\u011bYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Ku\u0161m\u00eddova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 481 2198",
+      "email": "obchod@alien.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1299.0,
+    "amount_rounding": 0.0,
+    "amount": 1299.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "47-830-01 JELZECHLAZENI",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 50.0,
+        "unit": "ks",
+        "unit_price": 60.0,
+        "ext_price": 3000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12.6
+      },
+      {
+        "name": "47-830-02 ZAKLADNA CHLAZENI",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 2000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 420.0
+      },
+      {
+        "name": "47-830-03 ZAKLADNA SAN.\u010cERPADLA",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 15.0,
+        "unit": "ks",
+        "unit_price": 150.0,
+        "ext_price": 2250.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 450.0
+      },
+      {
+        "name": "47-830-04 DEYMED (DOSTAVA) NOTEP",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 2000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 420.0
+      },
+      {
+        "name": "47-830-05 D\u011aYMED (DOSTAVA) POT",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 5.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 1000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 210.0
+      },
+      {
+        "name": "47-830-06 D\u011aYMED (DOSTAVA) VOD",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 2000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 420.0
+      },
+      {
+        "name": "47-830-07 D\u011aYMED (DOSTAVA) S\u00cdT",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 5.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 1000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 210.0
+      },
+      {
+        "name": "47-830-08 D\u011aYMED (DOSTAVA) M\u00cd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 2000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 420.0
+      },
+      {
+        "name": "47-830-09 D\u011aYMED (DOSTAVA) \u017dI",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 2000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 420.0
+      },
+      {
+        "name": "47-830-10 D\u011aYMED (DOSTAVA) FST",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 2000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 420.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Alien 250100018.pdf",
+  "time": 372.28759026527405
+}

@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2021-05-24",
+    "due_date": "",
+    "taxable_supply_date": "2021-05-24",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "306079519",
+      "bank_code": "030",
+      "constant_symbol": "",
+      "variable_symbol": "001",
+      "specific_symbol": "",
+      "iban": "PL030038742991",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "CZKA, s.r.o.",
+      "address": {
+        "street": "Hlavn\u00ed n\u00e1m\u011bst\u00ed",
+        "city": "Praha 3",
+        "postalcode": "100 01",
+        "country": "Czech Republic (\u010cesk\u00e1 republika)"
+      },
+      "identification_number": "210524-306079519",
+      "tax_number": "000000",
+      "phone": "+48 219 999",
+      "email": "info@noon.czk.o.s."
+    },
+    "counterparty_info": {
+      "company_name": "Energia \u010desk\u00e9 republiky",
+      "address": {
+        "street": "Budov\u00e1n\u00ed",
+        "city": "Praha 6",
+        "postalcode": "120 00",
+        "country": "Czech Republic (\u010cesk\u00e1 republika)"
+      },
+      "identification_number": "349 856 798",
+      "tax_number": "210524-306079519",
+      "phone": "+48 219 999",
+      "email": "info@noon.czk.o.s."
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 230.69,
+    "amount_rounding": 0.0,
+    "amount": 230.69,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Uplatn\u00e1n\u00ed za \u00faroku na v\u00fdrobn\u00ed pracovn\u00ed dobu a slu\u017eebn\u00ed dobu.",
+    "lines": [
+      {
+        "name": "V\u00fdrobn\u00ed pracovn\u00ed a slu\u017eebn\u00ed doba",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 230.69,
+        "ext_price": 230.69,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 247.89
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ARROW 20043108.pdf",
+  "time": 183.27022337913513
+}

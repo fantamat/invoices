@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2017-08-04",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "69231015",
+      "bank_code": "14102",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "BG17B181170000043",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "\u0422\u041e\u041b\u041a\u0410 \u0418\u0421\u041f\u0410\u0420\u0410",
+      "address": {
+        "street": "15\u0431 \u0443\u043b. \u0421\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438",
+        "city": "\u0411\u0435\u043bgrade",
+        "postalcode": "1100",
+        "country": "\u0421\u0440\u0431\u0438\u044f"
+      },
+      "identification_number": "\u041e\u0418\u041f: 294567890",
+      "tax_number": "\u0420e\u0434\u043d\u044b\u0435 \u0432\u043f\u0438\u0441\u043a\u0430e \u043d\u0430 \u0444\u0438\u0441\u043a\u0430\u043b\u043d\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435",
+      "phone": "+38 123 456 789",
+      "email": "info@alien.rs"
+    },
+    "counterparty_info": {
+      "company_name": "\u0414\u041e\u0421\u0422\u0410\u0412\u041aA \u0414\u0415\u041b\u0410 \u0438 \u0423\u0427\u0415\u041d\u0418\u042f",
+      "address": {
+        "street": "\u0423\u043b\u0438\u0446\u0430 \u0420\u0430\u0434\u043d\u0438\u0447\u043d\u0430\u044f No.15\u0430",
+        "city": "\u0411\u0435\u043bgrade",
+        "postalcode": "1120",
+        "country": "\u0421\u0440\u0431\u0438\u044f"
+      },
+      "identification_number": "\u0420e\u0434\u043d\u044b\u0435 v\u043f\u0438\u0441\u043a\u0430e \u043d\u0430 \u0444\u0438\u0441\u043a\u0430\u043b\u043d\u043e\u043c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435",
+      "tax_number": "\u041f\u0440\u0435\u0442\u043f\u043b\u0430\u0442\u0435\u043d\u0438: 78-9",
+      "phone": "+38 123 456 789",
+      "email": "info@dostavka.rs"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 999.0,
+    "amount_rounding": 0.0,
+    "amount": 1000.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "\u041e\u043f\u043b\u0430\u0442\u0430 \u0441\u0430 \u043f\u0440\u043e\u0434\u0430\u0436\u0438",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 5.0,
+        "unit": "ks",
+        "unit_price": 29.89,
+        "ext_price": 149.45,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 327.39
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\Centrum slu\u017eeb Broumov FV7852024.pdf",
+  "time": 150.73503017425537
+}

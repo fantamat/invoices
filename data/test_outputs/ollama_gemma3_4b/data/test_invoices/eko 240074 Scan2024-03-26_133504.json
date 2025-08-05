@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "19.03.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "2601559484",
+      "bank_code": "CZ01",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "EKO spol. s r.o.",
+      "address": {
+        "street": "Ku\u0161n\u00e1\u0159ova 533",
+        "city": "Praha",
+        "postalcode": "14000",
+        "country": "Czech Republic"
+      },
+      "identification_number": "2601559484",
+      "tax_number": "CZ01",
+      "phone": "491 452 841",
+      "email": "491 452 841"
+    },
+    "counterparty_info": {
+      "company_name": "EKO spol. s r.o.",
+      "address": {
+        "street": "Ku\u0161n\u00e1\u0159ova 533",
+        "city": "Praha",
+        "postalcode": "14000",
+        "country": "Czech Republic"
+      },
+      "identification_number": "2601559484",
+      "tax_number": "CZ01",
+      "phone": "491 452 841",
+      "email": "491 452 841"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 21.0,
+    "amount_rounding": 0.0,
+    "amount": 1.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "jakycepevn\u00fd",
+    "lines": [
+      {
+        "name": "jakycepevn\u00fd",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 13885.0,
+        "ext_price": 1.0,
+        "tax_class_id": 2399.17,
+        "discount_percent": 0.21,
+        "total_with_vat": 5039.83
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\eko 240074 Scan2024-03-26_133504.pdf",
+  "time": 130.358314037323
+}

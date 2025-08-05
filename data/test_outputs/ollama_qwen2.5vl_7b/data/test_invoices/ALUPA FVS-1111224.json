@@ -1,0 +1,145 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "4.6.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "25306524/0600",
+      "bank_code": "25284584",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "MONETA Money Bank"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "777 489 777",
+      "email": "info@ehlinik.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Alupa s.r.o.",
+      "address": {
+        "street": "200",
+        "city": "Mikulovice",
+        "postalcode": "530 02",
+        "country": "Czech Republic"
+      },
+      "identification_number": "47472987",
+      "tax_number": "CZ47472987",
+      "phone": "777 489 777",
+      "email": "info@ehlinik.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 24723.61,
+    "amount_rounding": 0.0,
+    "amount": 29915.57,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d ploch\u00e1/\u010dtvercov\u00e1 150x40 6063 3m",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 49.791,
+        "unit": "ks",
+        "unit_price": 175.0,
+        "ext_price": 7842.07,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 9410.5
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d ploch\u00e1/\u010dtvercov\u00e1 100x40 6063 3m",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 32.91,
+        "unit": "ks",
+        "unit_price": 160.0,
+        "ext_price": 4739.04,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5704.84
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d ploch\u00e1/\u010dtvercov\u00e1 80x40 6063 3m",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 26.034,
+        "unit": "ks",
+        "unit_price": 160.0,
+        "ext_price": 3748.9,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4523.47
+      },
+      {
+        "name": "Hlin\u00edkov\u00fd jelek 80x40x4",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 42.714,
+        "unit": "ks",
+        "unit_price": 160.0,
+        "ext_price": 6658.88,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 8046.65
+      },
+      {
+        "name": "\u0159ez\u00e1n\u00ed a manipulace",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 18.0,
+        "unit": "ks",
+        "unit_price": 341.71,
+        "ext_price": 6150.82,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 7422.98
+      },
+      {
+        "name": "\u0159ez\u00e1n\u00ed a manipulace",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 32.78,
+        "ext_price": 32.78,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 39.33
+      },
+      {
+        "name": "\u0159ez\u00e1n\u00ed a manipulace",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 500.0,
+        "ext_price": 500.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 600.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALUPA FVS-1111224.pdf",
+  "time": 393.8084194660187
+}

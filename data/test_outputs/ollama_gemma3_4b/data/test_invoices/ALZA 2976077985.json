@@ -1,0 +1,97 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "20.02.2025",
+    "due_date": "",
+    "taxable_supply_date": "06.03.2025",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "2171532/0800",
+      "bank_code": "21",
+      "constant_symbol": "",
+      "variable_symbol": "5383438831",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alza.cz a.s.",
+      "address": {
+        "street": "Jankovcova 1522/53",
+        "city": "Praha 7",
+        "postalcode": "17000",
+        "country": "Czech Republic"
+      },
+      "identification_number": "27082440",
+      "tax_number": "CZ27082440",
+      "phone": "+420225340111",
+      "email": "kuzelka@deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "4628",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420770315075",
+      "email": "kuzelka@deymed.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 395.0,
+    "amount_rounding": 0.0,
+    "amount": 395.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Sleva na dopravn\u00e9 - AlzaBox",
+    "lines": [
+      {
+        "name": "Ventil\u00e1tor do PC ARCTIC S12038-4K",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 280.17,
+        "ext_price": 280.17,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 280.17
+      },
+      {
+        "name": "CBs1203 8a1 CB150b 2 SL190r Nehmotn\u00fd produkt Doprava - AlzaBox",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 280.17,
+        "ext_price": 280.17,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 280.17
+      },
+      {
+        "name": "CBs1203 8a1 CB150b 2 SL190r Nehmotn\u00fd produkt Sleva na dopravn\u00e9 - AlzaBox",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 280.17,
+        "ext_price": 280.17,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 280.17
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ALZA 2976077985.pdf",
+  "time": 199.61450695991516
+}

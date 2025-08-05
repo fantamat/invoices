@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2016-03-29",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "0784252601",
+      "bank_code": "12345",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "GB12ABCD1234567890",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ALIEN TECHNOLOGY",
+      "address": {
+        "street": "123 STREET NAME",
+        "city": "CITY NAME",
+        "postalcode": "ZIP CODE",
+        "country": "COUNTRY NAME"
+      },
+      "identification_number": "AB-0000-0001",
+      "tax_number": "1234567890",
+      "phone": "0800 123 456",
+      "email": "[your@email.com](mailto:your@email.com)"
+    },
+    "counterparty_info": {
+      "company_name": "COMPANY NAME",
+      "address": {
+        "street": "123 STREET NAME",
+        "city": "CITY NAME",
+        "postalcode": "ZIP CODE",
+        "country": "COUNTRY NAME"
+      },
+      "identification_number": "AB-0000-0001",
+      "tax_number": "1234567890",
+      "phone": "0800 123 456",
+      "email": "[your@email.com](mailto:your@email.com)"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1405.0,
+    "amount_rounding": 0.0,
+    "amount": 1406.0,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "PRODUCT DESCRIPTION",
+    "lines": [
+      {
+        "name": "PRODUCT NAME",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 703.0,
+        "ext_price": 1406.0,
+        "tax_class_id": 987.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1406.0
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\CCF_000002.pdf",
+  "time": 710.8830718994141
+}

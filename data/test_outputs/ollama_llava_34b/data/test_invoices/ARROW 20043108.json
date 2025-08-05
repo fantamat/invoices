@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "20/10/95",
+    "due_date": "",
+    "taxable_supply_date": "20/10/95",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "13-87348634",
+      "bank_code": "0315",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "GB29AABY234789347",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Unknown Technologies Ltd.",
+      "address": {
+        "street": "16, Park Lane",
+        "city": "London",
+        "postalcode": "W1K 5AN",
+        "country": "United Kingdom"
+      },
+      "identification_number": "023489375",
+      "tax_number": "GB26788751",
+      "phone": "01-87348634",
+      "email": "[aliens@unknown.com](mailto:aliens@unknown.com)"
+    },
+    "counterparty_info": {
+      "company_name": "Unknown Company",
+      "address": {
+        "street": "123, Any Street",
+        "city": "London",
+        "postalcode": "SW1 2ER",
+        "country": "United Kingdom"
+      },
+      "identification_number": "008765432",
+      "tax_number": "GB26987534",
+      "phone": "01-87348634",
+      "email": "[unknown@company.com](mailto:unknown@company.com)"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 529.85,
+    "amount_rounding": 0.0,
+    "amount": 529.85,
+    "currency_id": "EUR",
+    "vat_currency_id": "EUR",
+    "description": "BOSE QUARTZ WATCH AND STEREO HEADPHONES",
+    "lines": [
+      {
+        "name": "1 PC BOSE QUARTZ WATCH",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 40.0,
+        "ext_price": 40.0,
+        "tax_class_id": 10.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 43.65
+      },
+      {
+        "name": "2 PCS STEREO HEADPHONES",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 29.95,
+        "ext_price": 59.9,
+        "tax_class_id": 10.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 73.86
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ARROW 20043108.pdf",
+  "time": 808.483053445816
+}

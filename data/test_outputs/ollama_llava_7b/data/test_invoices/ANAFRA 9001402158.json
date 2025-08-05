@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2017-03-15",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "843306",
+      "bank_code": "99",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "RO0742105",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Danvoy Do\u043a\u043b\u0430\u0434",
+      "address": {
+        "street": "Anafora",
+        "city": "Costinesti",
+        "postalcode": "1063",
+        "country": "Romania"
+      },
+      "identification_number": "0841759",
+      "tax_number": "0000",
+      "phone": "001",
+      "email": "00@00.ro"
+    },
+    "counterparty_info": {
+      "company_name": "ANAFRA",
+      "address": {
+        "street": "Anafora",
+        "city": "Costinesti",
+        "postalcode": "1063",
+        "country": "Romania"
+      },
+      "identification_number": "0841759",
+      "tax_number": "0000",
+      "phone": "001",
+      "email": "00@00.ro"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 23.0,
+    "amount_rounding": 0.11,
+    "amount": 24.0,
+    "currency_id": "EUR",
+    "vat_currency_id": null,
+    "description": "DANVOY DOCLAD",
+    "lines": [
+      {
+        "name": "DANVOY DOCLAD",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 0.23,
+        "ext_price": 0.24,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 0.24
+      }
+    ]
+  },
+  "total_token_count": 0,
+  "file_path": "data/test_invoices\\ANAFRA 9001402158.pdf",
+  "time": 183.67368698120117
+}
