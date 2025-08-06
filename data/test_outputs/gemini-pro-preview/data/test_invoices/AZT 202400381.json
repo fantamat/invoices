@@ -1,0 +1,143 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "2411/2953",
+    "external_invoice_number": "202400381",
+    "delivery_note_number": "202400381",
+    "issue_date": "2024-09-18",
+    "due_date": "2024-10-18",
+    "taxable_supply_date": "2024-09-18",
+    "deduction_date": "2024-09-18",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "2902115025",
+      "bank_code": "2010",
+      "constant_symbol": "0008",
+      "variable_symbol": "202400381",
+      "specific_symbol": "202400381",
+      "iban": "CZ6120100000002902115025",
+      "bic": "FIOBCZPPXXX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "AZT spol. s r.o.",
+      "address": {
+        "street": "\u0158\u00edpsk\u00e1 960/9a",
+        "city": "Brno",
+        "postalcode": "627 00",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "25534611",
+      "tax_number": "CZ25534611",
+      "phone": "545221905",
+      "email": "azt@azt.cz"
+    },
+    "shipping_info": {
+      "account_id": "DEYMED Diagnostic s.r.o.",
+      "contact_id": "p. Ku\u017eelka",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 31955.0,
+    "amount_rounding": 0.0,
+    "amount": 31955.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Objedn\u00e1vka: p. Ku\u017eelka",
+    "lines": [
+      {
+        "name": "p\u00edstek k RMA past\u011b",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 30.0,
+        "unit": "ks",
+        "unit_price": 20.0,
+        "ext_price": 600.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 726.0
+      },
+      {
+        "name": "2245 p\u00e1jec\u00ed pero",
+        "mfr_part_no": "T245-A",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1567.0,
+        "ext_price": 1567.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1896.07
+      },
+      {
+        "name": "2245907 hrot",
+        "mfr_part_no": "2245907",
+        "ean": "",
+        "quantity": 30.0,
+        "unit": "ks",
+        "unit_price": 608.0,
+        "ext_price": 18240.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 22070.4
+      },
+      {
+        "name": "P\u00e1jec\u00ed pero T210-A",
+        "mfr_part_no": "T210-A",
+        "ean": "",
+        "quantity": 3.0,
+        "unit": "ks",
+        "unit_price": 1664.0,
+        "ext_price": 4992.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 6040.32
+      },
+      {
+        "name": "sponge S1069",
+        "mfr_part_no": "S1069",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 44.0,
+        "ext_price": 880.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1064.8
+      },
+      {
+        "name": "dopravn\u00e9-baln\u00e9",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 130.0,
+        "ext_price": 130.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 157.3
+      }
+    ]
+  },
+  "total_token_count": 4707,
+  "time": 45.84298253059387
+}

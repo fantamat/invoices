@@ -1,0 +1,96 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "2411/279",
+    "issue_date": "18.9.2024",
+    "due_date": "18.9.2024",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "25284584",
+      "bank_code": "0800",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudm\u00e1cova",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "CZ"
+      },
+      "identification_number": "252845844444",
+      "tax_number": "CZ25284584",
+      "phone": "49148129811",
+      "email": "none"
+    },
+    "counterparty_info": {
+      "company_name": "Josef \u0160koda",
+      "address": {
+        "street": "Nam. RE 295",
+        "city": "Hronov",
+        "postalcode": "542 33",
+        "country": "CZ"
+      },
+      "identification_number": "87073498",
+      "tax_number": "",
+      "phone": "605162211",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Nam. RE 295",
+        "city": "Hronov",
+        "postalcode": "542 33",
+        "country": "CZ"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 2100.0,
+    "amount_rounding": 0.0,
+    "amount": 2100.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "\u010cist\u00e1 V\u00e1m slu\u0161\u00ed Boz",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1950.0,
+        "ext_price": 1950.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1950.0
+      },
+      {
+        "name": "cena dodavatele",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 150.0,
+        "ext_price": 150.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 150.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/Josef \u0160koda.pdf",
+  "total_token_count": 2904,
+  "time": 11.443683624267578
+}

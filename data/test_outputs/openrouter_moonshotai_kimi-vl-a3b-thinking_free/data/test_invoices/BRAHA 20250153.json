@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": ":F6BV49WRK",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2025-03-28",
+    "due_date": "2025-03-28",
+    "taxable_supply_date": "2025-03-14",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "27-0388170267/0100",
+      "bank_code": "27",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "PME0CZPPXXX"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Kudrn\u00e1\u010dova 533",
+      "address": {
+        "street": "54931 Hronov 1",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "20250153",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "20250153",
+      "phone": "737 261 686",
+      "email": "braha.plasty@tiscali.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 10140.0,
+    "amount_rounding": 0.0,
+    "amount": 21294.4,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Delivery and payment terms Delivery date: when$d",
+    "lines": [
+      {
+        "name": "Kryt stimulativn\u00ed c\u00edvka",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 10140.0,
+        "ext_price": 10140.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 10140.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/BRAHA 20250153.pdf",
+  "total_token_count": 2428,
+  "time": 29.99258589744568
+}

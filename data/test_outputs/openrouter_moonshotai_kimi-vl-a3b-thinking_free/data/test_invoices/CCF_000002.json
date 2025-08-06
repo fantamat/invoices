@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": ".\u5ce5\u67c3,",
+    "issue_date": ".\u5bc3 Greg",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": ".\u5bceav",
+      "bank_code": ".\u5bdf\u683c",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": ".\u5bf8cb",
+      "bic": ".\u5bdccbf"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1reva 533",
+        "city": "Hronov",
+        "postalcode": ".\u8788town",
+        "country": ".nd"
+      },
+      "identification_number": ".\u5bea\u8996",
+      "tax_number": "25284584",
+      "phone": ".\u9517mom",
+      "email": ".bulzhit@allen.cz"
+    },
+    "counterparty_info": {
+      "company_name": ".\u5bddVNO",
+      "address": {
+        "street": "Velk\u00fd Dv\u016fr 91",
+        "city": "Hronov",
+        "postalcode": "549 34",
+        "country": ".nd"
+      },
+      "identification_number": ".\u5bd5d",
+      "tax_number": "0308",
+      "phone": ".erm",
+      "email": ".obchod@allen.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 55.0,
+    "amount_rounding": 0.0,
+    "amount": 550.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": ".\u5be7 Keep this response focused and compliant with the given instructions. Provide the detailed information based on the invoice provided, ensuring the JSON structure is correctly formatted according to the user's specifications.",
+    "lines": [
+      {
+        "name": "",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 0.0,
+        "unit": "ks",
+        "unit_price": 0.0,
+        "ext_price": 0.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 0.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/CCF_000002.pdf",
+  "total_token_count": 1490,
+  "time": 7.973586797714233
+}

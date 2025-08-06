@@ -1,0 +1,107 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "EKO-2024-010",
+    "external_invoice_number": "240074",
+    "delivery_note_number": "",
+    "issue_date": "2024-03-19",
+    "due_date": "2024-03-29",
+    "taxable_supply_date": "2024-03-19",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "2601515594",
+      "bank_code": "2010",
+      "constant_symbol": "308",
+      "variable_symbol": "240074",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "CR"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "EKO, spol. s r.o.",
+      "address": {
+        "street": "T.G.Masaryka 295",
+        "city": "\u010cesk\u00e1 Skalice",
+        "postalcode": "552 03",
+        "country": "Czech Republic"
+      },
+      "identification_number": "00655708",
+      "tax_number": "CZ00655708",
+      "phone": "491 452 841",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "CR"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 29039.0,
+    "amount_rounding": 0.0,
+    "amount": 29039.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "Povrchov\u00e9 \u00fapravy: lakov\u00e1n\u00ed dle obj.EKO-2024-010",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 13885.0,
+        "ext_price": 13885.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 16799.85
+      },
+      {
+        "name": "lakov\u00e1n\u00ed dle obj.EKO-2024-011",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 10114.0,
+        "ext_price": 10114.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12237.94
+      },
+      {
+        "name": "zaokrouhlen\u00ed",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 0.21,
+        "ext_price": 0.21,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 0.21
+      }
+    ]
+  },
+  "total_token_count": 8559,
+  "time": 82.44224810600281
+}

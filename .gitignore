@@ -9,3 +9,5 @@
 *.log
 
 /data/temp_images/*
+
+/data/results/*

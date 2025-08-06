@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "124 1102",
+    "issue_date": "04.06.24",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "1100 0000 0026 2102 6958",
+      "bank_code": "1100",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "SK47 1100 0000 0026 2102 6958",
+      "bic": "_HPPCT_CZKSK"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic, s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1va 533",
+        "city": "Hronov",
+        "postalcode": "54934",
+        "country": "CS"
+      },
+      "identification_number": "25284584",
+      "tax_number": "Ian: 25284584countries\u8f66 against aircraftlongitudinally initialized",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "GAYA, s.r.o.",
+      "address": {
+        "street": "Hviezdoslavova 38, 036 01 Martin",
+        "city": "Martin",
+        "postalcode": "",
+        "country": "CS"
+      },
+      "identification_number": "",
+      "tax_number": "SK202003863",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 11.59,
+    "currency_id": "EUR",
+    "vat_currency_id": "EUR",
+    "description": "",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/GAYA 1241102.pdf",
+  "total_token_count": 1407,
+  "time": 26.536519527435303
+}

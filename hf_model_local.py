@@ -93,7 +93,9 @@ def main():
                 print(f"Attempt {i+1}: Failed to parse JSON, retrying... Error: {e}")
         else:
             return {"error": "Failed to parse JSON after multiple attempts", "raw_response": response}
-
+        return {
+            "invoice": parsed_json,
+        }
     
     # Test the pipeline with your invoice images
     test_all(process_image_with_pipeline, "data/test_outputs/hf_aya_vision_32b/")

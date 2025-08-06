@@ -1,0 +1,127 @@
+{
+  "invoice": {
+    "type": "issued",
+    "internal_invoice_number": ":_terms/financialDOCUMENTS/202400381",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": ":_9/18/2024, 00:00:00",
+    "due_date": ":_10/4/2024, 00:00:00",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "advance",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": ":_Kudrmancova 533",
+        "city": "Hronov",
+        "postalcode": ":52931",
+        "country": ":Czech Republic"
+      },
+      "identification_number": ":_25284584",
+      "tax_number": "",
+      "phone": ":_545221905",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "AZT, spol. s r.o.",
+      "address": {
+        "street": ":_Ripska 960/9a",
+        "city": "Brno",
+        "postalcode": ":62700",
+        "country": ":Czech Republic"
+      },
+      "identification_number": ":_26534611",
+      "tax_number": ":_CZ25534611",
+      "phone": ":_604777898",
+      "email": ":_azt@ozz.cz"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 4112.07,
+    "amount_rounding": 0.0,
+    "amount": 31555.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": " Invoice for medical equipment",
+    "lines": [
+      {
+        "name": "monitoring device for a patient",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1580.0,
+        "ext_price": 1580.0,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1580.0
+      },
+      {
+        "name": "peripheral veins catheter 2254",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1567.0,
+        "ext_price": 1567.0,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1567.0
+      },
+      {
+        "name": "shower layel 2245907",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 608.0,
+        "ext_price": 608.0,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 608.0
+      },
+      {
+        "name": "dental gylcerin 120ml",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 5.4,
+        "ext_price": 5.4,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5.4
+      },
+      {
+        "name": "sponge S1069",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 44.0,
+        "ext_price": 44.0,
+        "tax_class_id": 6.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 44.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/AZT 202400381.pdf",
+  "total_token_count": 1755,
+  "time": 10.29214859008789
+}

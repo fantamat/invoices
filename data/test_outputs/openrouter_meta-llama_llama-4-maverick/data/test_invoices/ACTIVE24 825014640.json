@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "04.02.2025",
+    "due_date": "",
+    "taxable_supply_date": "04.02.2025",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "34175028/5500",
+      "bank_code": "5500",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "CZ6155000000000034175028",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic (CZ)"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "ACTIVE 24, s.r.o.",
+      "address": {
+        "street": "Sokolovsk\u00e1 394/17",
+        "city": "Praha 8",
+        "postalcode": "186 00",
+        "country": "\u010cesk\u00e1 Republika"
+      },
+      "identification_number": "25115804",
+      "tax_number": "CZ25115804",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 699.0,
+    "amount_rounding": 0.0,
+    "amount": 845.79,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "deymed.be",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 699.0,
+        "ext_price": 699.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 845.79
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/ACTIVE24 825014640.pdf",
+  "total_token_count": 3587,
+  "time": 8.96240758895874
+}

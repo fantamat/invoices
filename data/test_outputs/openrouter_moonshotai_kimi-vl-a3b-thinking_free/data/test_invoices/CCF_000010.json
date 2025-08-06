@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic S.r.o.",
+      "address": {
+        "street": "Kudrnacova 533",
+        "city": "Hrnov",
+        "postalcode": "53931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "AutoGear Pro Store",
+      "address": {
+        "street": "Auto Gear Pro Store",
+        "city": "Hronsk",
+        "postalcode": "53931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 336.87,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "RFC 3 Button Flip Key Case Car Key",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 3.0,
+        "unit": "ks",
+        "unit_price": 112.29,
+        "ext_price": 336.87,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 336.87
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/CCF_000010.pdf",
+  "total_token_count": 1409,
+  "time": 5.4359776973724365
+}

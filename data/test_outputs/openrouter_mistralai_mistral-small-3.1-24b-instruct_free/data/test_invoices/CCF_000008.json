@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "06/09/2025",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "XXXXXXXXXX6978",
+      "bank_code": "475694898",
+      "constant_symbol": "822691",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o",
+      "address": {
+        "street": "K patronu Oury 2528/54",
+        "city": "Honorovo",
+        "postalcode": "10200",
+        "country": "Czech republic"
+      },
+      "identification_number": "26284554",
+      "tax_number": "CZ6727272727",
+      "phone": "+420491481296",
+      "email": "www.deymed.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Lake Powell Travel P",
+      "address": {
+        "street": "181 West Glen",
+        "city": "Page",
+        "postalcode": "86040",
+        "country": "AZ"
+      },
+      "identification_number": "XXXXXXXX8001",
+      "tax_number": "XXXXXXXXX6978",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 49.77,
+    "amount_rounding": 0.0,
+    "amount": 49.77,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "REGULAR",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 15.086,
+        "unit": "G",
+        "unit_price": 329.0,
+        "ext_price": 49.77,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 49.77
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/CCF_000008.pdf",
+  "total_token_count": 2752,
+  "time": 30.834094762802124
+}

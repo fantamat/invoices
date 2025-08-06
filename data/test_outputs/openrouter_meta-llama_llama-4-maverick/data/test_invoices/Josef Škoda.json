@@ -1,0 +1,85 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "18.9.2024",
+    "due_date": "18.9.2024",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 491 481 298",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Josef \u0160koda",
+      "address": {
+        "street": "N\u00e1m\u011brka",
+        "city": "Rtyn\u011b v Podkrkono\u0161\u00ed",
+        "postalcode": "542 33",
+        "country": "Czech Republic"
+      },
+      "identification_number": "87073498",
+      "tax_number": "",
+      "phone": "605 162 211",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 21100.0,
+    "amount_rounding": 0.0,
+    "amount": 21100.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "Opravy BOZP",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 19500.0,
+        "ext_price": 19500.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 19500.0
+      },
+      {
+        "name": "cen\u00edk",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 1600.0,
+        "ext_price": 1600.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1600.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/Josef \u0160koda.pdf",
+  "total_token_count": 2891,
+  "time": 25.620590448379517
+}

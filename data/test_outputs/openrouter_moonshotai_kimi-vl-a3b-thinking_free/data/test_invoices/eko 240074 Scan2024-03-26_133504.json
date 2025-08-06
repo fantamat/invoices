@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "issued",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": ":240074",
+    "issue_date": ":19.03.2024",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "2601515594/2010",
+      "bank_code": ":BIC",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": ":IBAN",
+      "bic": ":BIC"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrna\u010dkova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "HR"
+      },
+      "identification_number": ":25284584",
+      "tax_number": ":25284584",
+      "phone": ":491 452 841",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Eko, spol. s.r.o.",
+      "address": {
+        "street": "T.G.Masuryka 295",
+        "city": " \u010cesk\u00e1 Skalice",
+        "postalcode": "552 03",
+        "country": "CZ"
+      },
+      "identification_number": ":00655708",
+      "tax_number": ":00655708",
+      "phone": ":491 452 841",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 1.0,
+    "amount_rounding": 0.0,
+    "amount": 13885.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "lakevani die obj.EKO-2024-010",
+    "lines": [
+      {
+        "name": "lakevani die obj.EKO-2024-010",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 7384.85,
+        "ext_price": 13885.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.21,
+        "total_with_vat": 13885.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/eko 240074 Scan2024-03-26_133504.pdf",
+  "total_token_count": 1472,
+  "time": 10.49105978012085
+}

@@ -1,0 +1,95 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "DNO2409271",
+    "external_invoice_number": "20043108",
+    "delivery_note_number": "37479739",
+    "issue_date": "2024-10-23",
+    "due_date": "2024-11-22",
+    "taxable_supply_date": "2024-10-23",
+    "deduction_date": "2024-10-23",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "1000556708",
+      "bank_code": "3500",
+      "constant_symbol": "1511",
+      "variable_symbol": "20043108",
+      "specific_symbol": "1061346",
+      "iban": "CZ3235000000001000556708",
+      "bic": "INGBCZPP"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "CZECH REPUBLIC"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420491481298",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "ARROW ELECTRONICS CZECH REPUBLIC S.R.O.",
+      "address": {
+        "street": "Hv\u011bzdova 1716/2b",
+        "city": "Praha 4",
+        "postalcode": "140 78",
+        "country": "CZECH REPUBLIC"
+      },
+      "identification_number": "62578618",
+      "tax_number": "CZ62578618",
+      "phone": "+420739929954",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "DEYMED Diagnostic s.r.o.",
+      "contact_id": "Lubos Mazura",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "CZECH REPUBLIC"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 6360.07,
+    "amount_rounding": 0.0,
+    "amount": 6360.07,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "DFLZ13-7 DIODES Zener Diode Single 13V 5% 10Ohm 1000mW 2-Pin PowerDI 123 T/R",
+        "mfr_part_no": "DFLZ13-7",
+        "ean": "",
+        "quantity": 3000.0,
+        "unit": "TAPE/REEL",
+        "unit_price": 1.71,
+        "ext_price": 5130.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 6207.3
+      },
+      {
+        "name": "Freight Charges",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "BULK",
+        "unit_price": 126.26,
+        "ext_price": 126.26,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 152.77
+      }
+    ]
+  },
+  "total_token_count": 4326,
+  "time": 41.7796893119812
+}

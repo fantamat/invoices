@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "type": "issued",
+    "internal_invoice_number": ",number_code, ",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": ":10.03.2025",
+    "due_date": ":25.03.2025",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": ",",
+      "bank_code": ",",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": ",",
+      "bic": ",Bankier"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "",
+      "address": {
+        "street": ",",
+        "city": ",",
+        "postalcode": "",
+        "country": ",},"
+      },
+      "identification_number": ",",
+      "tax_number": ",",
+      "phone": ",",
+      "email": ","
+    },
+    "counterparty_info": {
+      "company_name": "Deymee",
+      "address": {
+        "street": "kardinala",
+        "city": "50101",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": ",",
+      "tax_number": ",",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 919.0,
+    "amount_rounding": 19.0,
+    "amount": 738.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "];'}' forcause:ValueError: Invalid literal for DateParse: '11.03.2025' received value: '11.03.2025' at line 4, column 11. At character position 9.",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/Alza 2977457665.pdf",
+  "total_token_count": 1399,
+  "time": 8.916961669921875
+}

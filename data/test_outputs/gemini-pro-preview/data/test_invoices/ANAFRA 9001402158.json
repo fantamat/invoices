@@ -1,0 +1,119 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "2501100",
+    "external_invoice_number": "9001402158",
+    "delivery_note_number": "033396",
+    "issue_date": "2025-01-10",
+    "due_date": "2025-01-13",
+    "taxable_supply_date": "2025-01-10",
+    "deduction_date": "2025-01-10",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "199921885",
+      "bank_code": "0300",
+      "constant_symbol": "9001402158",
+      "variable_symbol": "9001402158",
+      "specific_symbol": "9001402158",
+      "iban": "CZ7303000000000199921885",
+      "bic": "CEKOCZPP"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "ANAFRA s.r.o.",
+      "address": {
+        "street": "5. kv\u011btna 1109/63",
+        "city": "Praha",
+        "postalcode": "14000",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "26878291",
+      "tax_number": "CZ26878291",
+      "phone": "+420 776 788 887",
+      "email": "faktury@anafra.cz"
+    },
+    "shipping_info": {
+      "account_id": "DEYMED Diagnostic s.r.o.",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 48521.0,
+    "amount_rounding": 0.0,
+    "amount": 48521.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "P\u0159epravn\u00ed spole\u010dnost\u00ed GLS",
+    "lines": [
+      {
+        "name": "Supermicro MBD-H12SSL-I-O",
+        "mfr_part_no": "MBD-H12SSL-I-O",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 11700.0,
+        "ext_price": 11700.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 14157.0
+      },
+      {
+        "name": "AMD EPYC Milan 7313P UP 16C/32T 3.0G 128MB 155W - 100-000000339",
+        "mfr_part_no": "100-000000339",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 10600.0,
+        "ext_price": 10600.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12826.0
+      },
+      {
+        "name": "Samsung 32GB DDR4-3200 2Rx4 LP ECC RDIMM, MEM-DR432L-SL02-ER32 - M393A4K40DB3-CWE",
+        "mfr_part_no": "M393A4K40DB3-CW",
+        "ean": "",
+        "quantity": 4.0,
+        "unit": "ks",
+        "unit_price": 2500.0,
+        "ext_price": 10000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12100.0
+      },
+      {
+        "name": "Broadcom NetXtreme E-Adapter P210p - BCM957412A4120AC",
+        "mfr_part_no": "BCM957412A4120A",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 3900.0,
+        "ext_price": 7800.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 9438.0
+      }
+    ]
+  },
+  "total_token_count": 5161,
+  "time": 46.79446077346802
+}

@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "CZ6235000000001000556708",
+      "bank_code": "INGBCPPP",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "INGBCPPP"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed",
+      "address": {
+        "street": "Kudrn\u00e1kov\u00e1 533",
+        "city": "Hronov",
+        "postalcode": "",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": "www.arrow.com"
+    },
+    "counterparty_info": {
+      "company_name": "Arrow",
+      "address": {
+        "street": "Hvezda 1716/2b",
+        "city": "Praha 4",
+        "postalcode": "",
+        "country": "Czech Republic"
+      },
+      "identification_number": "857634",
+      "tax_number": "",
+      "phone": "+420 233062",
+      "email": "www.arrow.com"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 5.0,
+    "amount_rounding": 0.0,
+    "amount": 5130.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "Dflz13-7",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/ARROW 20043108.pdf",
+  "total_token_count": 1416,
+  "time": 8.414634227752686
+}

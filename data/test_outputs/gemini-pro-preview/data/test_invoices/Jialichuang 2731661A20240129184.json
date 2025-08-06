@@ -1,0 +1,143 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "2411/388",
+    "external_invoice_number": "2731661A202401291843773",
+    "delivery_note_number": "775030008343",
+    "issue_date": "2024-01-29",
+    "due_date": "2024-01-29",
+    "taxable_supply_date": "2024-01-29",
+    "deduction_date": "2024-01-29",
+    "payment_method": "unknown",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrnacova 533",
+        "city": "HRONOV",
+        "postalcode": "549 31",
+        "country": "CZECH REPUBLIC, THE"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "608034351",
+      "email": "mazura@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "JiaLiChuang (HongKong) Co., Limited",
+      "address": {
+        "street": "Unit 21, 28/F, Metropole Square, No.2 On Yiu Street, Shatin, New Territories",
+        "city": "HONG KONG",
+        "postalcode": "",
+        "country": "China"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "+86 755 23919769",
+      "email": "support@jlcpcb.com"
+    },
+    "shipping_info": {
+      "account_id": "DEYMED Diagnostic s.r.o.",
+      "contact_id": "Lubos Mazura",
+      "address": {
+        "street": "Kudrnacova 533",
+        "city": "HRONOV",
+        "postalcode": "549 31",
+        "country": "CZECH REPUBLIC, THE"
+      },
+      "phone": "608034351",
+      "email": "mazura@deymed.com"
+    },
+    "amount_wo_rounding": 255.97,
+    "amount_rounding": 0.0,
+    "amount": 255.97,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "Reference: 775030008343, Batch No.: W202401291843773, Ship Via: FedEx International Priority",
+    "lines": [
+      {
+        "name": "2-layer Bare Rigid Printed circuit board HandyStim110P1(Reorder)_Y258",
+        "mfr_part_no": "Y258",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 1.95,
+        "ext_price": 19.5,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 19.5
+      },
+      {
+        "name": "2-layer Bare Rigid Printed circuit board Audiostim157P(Reorder)_Y331",
+        "mfr_part_no": "Y331",
+        "ean": "",
+        "quantity": 30.0,
+        "unit": "ks",
+        "unit_price": 1.6066,
+        "ext_price": 48.2,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 48.2
+      },
+      {
+        "name": "4-layer Bare Rigid Printed circuit board Analog210_PSG_LT_v2_2(Reorder)_Y438",
+        "mfr_part_no": "Y438",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 2.4275,
+        "ext_price": 48.55,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 48.55
+      },
+      {
+        "name": "2-layer Bare Rigid Printed circuit board RJ45_BNCtl110(Reorder)_Y479",
+        "mfr_part_no": "Y479",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 0.63,
+        "ext_price": 6.3,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 6.3
+      },
+      {
+        "name": "2-layer Bare Rigid Printed circuit board Zakl_LTP_v3P(Reorder)_Y655",
+        "mfr_part_no": "Y655",
+        "ean": "",
+        "quantity": 15.0,
+        "unit": "ks",
+        "unit_price": 4.8273,
+        "ext_price": 72.41,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 72.41
+      },
+      {
+        "name": "Shipping",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "",
+        "unit_price": 61.01,
+        "ext_price": 61.01,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 61.01
+      }
+    ]
+  },
+  "total_token_count": 4288,
+  "time": 38.810025691986084
+}

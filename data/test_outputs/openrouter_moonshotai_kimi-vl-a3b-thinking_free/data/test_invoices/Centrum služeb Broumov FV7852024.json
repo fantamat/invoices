@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "unknown",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudr\u0148ov\u00e1 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "CZ"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Centrum slu\u017eeb Broumov s r.o.",
+      "address": {
+        "street": "Ku\u010d Ter\u6642\u4ee3\u4e00\u5c0f\u5806",
+        "city": "Broumov",
+        "postalcode": "550 01",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "28796047",
+      "tax_number": "CZ28796047",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 0.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/Centrum slu\u017eeb Broumov FV7852024.pdf",
+  "total_token_count": 1359,
+  "time": 5.601704835891724
+}

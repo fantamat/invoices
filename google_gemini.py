@@ -43,7 +43,7 @@ def main():
             "total_token_count": response.usage_metadata.total_token_count,
         }
 
-    test_all(process_image, "data/outputs/gemini-pro-preview/")
+    test_all(process_image, "data/test_outputs/gemini-pro-preview/")
 
 
 if __name__ == "__main__":

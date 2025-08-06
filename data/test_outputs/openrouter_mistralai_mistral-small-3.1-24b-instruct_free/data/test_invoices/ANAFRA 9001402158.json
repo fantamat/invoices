@@ -1,0 +1,120 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "10. 1. 2025",
+    "due_date": "13. 1. 2025",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "199921885/0300",
+      "bank_code": "99921885",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "CZ73030000000199921885",
+      "bic": "CEKOCCZPP"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "ANAFRA s.r.o.",
+      "address": {
+        "street": "5. kv\u011btna 1109/63, 14000 Praha ",
+        "city": "Praha",
+        "postalcode": "14000",
+        "country": "Czechia"
+      },
+      "identification_number": "26878291",
+      "tax_number": "CZ26878291",
+      "phone": "+420 778 789 587",
+      "email": "daniel.lev@anafra.cz"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czechia"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czechia"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 40100.0,
+    "amount_rounding": 0.0,
+    "amount": 48521.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Faktura \u010d. 9001402158",
+    "lines": [
+      {
+        "name": " Supermicro",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "k Benedikt M\u00e4ki",
+        "unit_price": 11700.0,
+        "ext_price": 11700.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 14157.0
+      },
+      {
+        "name": "AMD",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks   ",
+        "unit_price": 10600.0,
+        "ext_price": 10600.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12826.0
+      },
+      {
+        "name": "Samsung",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 4.0,
+        "unit": "ks    ",
+        "unit_price": 2500.0,
+        "ext_price": 10000.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12100.0
+      },
+      {
+        "name": "Broadcom",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks ",
+        "unit_price": 3900.0,
+        "ext_price": 7800.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 9438.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/ANAFRA 9001402158.pdf",
+  "total_token_count": 5380,
+  "time": 54.05907893180847
+}

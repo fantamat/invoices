@@ -1,0 +1,83 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "2911/2708",
+    "external_invoice_number": "5076452032",
+    "delivery_note_number": "9351-0632-7141",
+    "issue_date": "2024-09-30",
+    "due_date": "2024-09-30",
+    "taxable_supply_date": "2024-09-30",
+    "deduction_date": "2024-09-30",
+    "payment_method": "direct_debit",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "5076452032",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czechia"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Google Cloud EMEA Limited",
+      "address": {
+        "street": "Velasco, Clanwilliam Place",
+        "city": "Dublin 2",
+        "postalcode": "",
+        "country": "Ireland"
+      },
+      "identification_number": "",
+      "tax_number": "IE3668997OH",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "DEYMED Diagnostic s.r.o.",
+      "contact_id": "Miroslav Mach\u00e1\u010dek",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czechia"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 338.4,
+    "amount_rounding": 0.0,
+    "amount": 338.4,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Souhrn za 1. 9. 2024 - 30. 9. 2024",
+    "lines": [
+      {
+        "name": "Google Workspace Business Starter",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "",
+        "unit_price": 169.2,
+        "ext_price": 338.4,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 338.4
+      }
+    ]
+  },
+  "total_token_count": 3526,
+  "time": 30.414196968078613
+}

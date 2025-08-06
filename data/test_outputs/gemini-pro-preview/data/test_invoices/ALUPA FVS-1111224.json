@@ -1,0 +1,156 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "FVS-11112/24",
+    "delivery_note_number": "DLS-11172/24",
+    "issue_date": "2024-06-04",
+    "due_date": "2024-06-18",
+    "taxable_supply_date": "2024-06-04",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "25306524",
+      "bank_code": "0600",
+      "constant_symbol": "",
+      "variable_symbol": "136511112",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "ALUPA s. r. o.",
+      "address": {
+        "street": "\u010d.p. 200",
+        "city": "Mikulovice",
+        "postalcode": "530 02",
+        "country": "CZ"
+      },
+      "identification_number": "47472987",
+      "tax_number": "CZ47472987",
+      "phone": "777 489 777",
+      "email": "info@ehlinik.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 29915.57,
+    "amount_rounding": 0.0,
+    "amount": 29915.57,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d ploch\u00e1/\u010dtvercov\u00e1 150x40 6063 3m",
+        "mfr_part_no": "812254",
+        "ean": "",
+        "quantity": 49.791,
+        "unit": "kg",
+        "unit_price": 175.0,
+        "ext_price": 7842.07,
+        "tax_class_id": 21.0,
+        "discount_percent": 10.0,
+        "total_with_vat": 9488.91
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d ploch\u00e1/\u010dtvercov\u00e1 100x40 6063 3m",
+        "mfr_part_no": "020067",
+        "ean": "",
+        "quantity": 32.91,
+        "unit": "kg",
+        "unit_price": 160.0,
+        "ext_price": 4739.04,
+        "tax_class_id": 21.0,
+        "discount_percent": 10.0,
+        "total_with_vat": 5734.24
+      },
+      {
+        "name": "Hlin\u00edkov\u00e1 ty\u010d ploch\u00e1/\u010dtvercov\u00e1 80x40 6063 3m",
+        "mfr_part_no": "813803",
+        "ean": "",
+        "quantity": 26.034,
+        "unit": "kg",
+        "unit_price": 160.0,
+        "ext_price": 3748.9,
+        "tax_class_id": 21.0,
+        "discount_percent": 10.0,
+        "total_with_vat": 4536.17
+      },
+      {
+        "name": "Hlin\u00edkov\u00fd jekl 80x40x4",
+        "mfr_part_no": "923218",
+        "ean": "",
+        "quantity": 42.714,
+        "unit": "kg",
+        "unit_price": 160.0,
+        "ext_price": 6150.82,
+        "tax_class_id": 21.0,
+        "discount_percent": 10.0,
+        "total_with_vat": 7442.49
+      },
+      {
+        "name": "\u0159ez\u00e1n\u00ed a manipulace",
+        "mfr_part_no": "000000001",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 200.0,
+        "ext_price": 200.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 242.0
+      },
+      {
+        "name": "\u0159ez\u00e1n\u00ed a manipulace",
+        "mfr_part_no": "000000001",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 32.78,
+        "ext_price": 32.78,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 39.66
+      },
+      {
+        "name": "\u0159ez\u00e1n\u00ed a manipulace",
+        "mfr_part_no": "000000001",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 500.0,
+        "ext_price": 500.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 605.0
+      },
+      {
+        "name": "Zaji\u0161t\u011bn\u00ed dopravy (FOFR)",
+        "mfr_part_no": "dopex",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 1510.0,
+        "ext_price": 1510.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1827.1
+      }
+    ]
+  },
+  "total_token_count": 10724,
+  "time": 94.81899452209473
+}

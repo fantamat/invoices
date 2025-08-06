@@ -1,0 +1,83 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "2519/113",
+    "external_invoice_number": "3055266305973570",
+    "delivery_note_number": "3055266305973570",
+    "issue_date": "2025-05-29",
+    "due_date": "2025-05-29",
+    "taxable_supply_date": "2025-05-29",
+    "deduction_date": "2025-05-29",
+    "payment_method": "card",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic S.r.o.",
+      "address": {
+        "street": "Kudrnacova 533 / Hronov",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "+420 702228816",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "AutoGear Pro Store",
+      "address": {
+        "street": "",
+        "city": "",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "Deymed Diagnostic S.r.o.",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrnacova 533 / Hronov",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "phone": "+420 702228816",
+      "email": ""
+    },
+    "amount_wo_rounding": 336.87,
+    "amount_rounding": 0.0,
+    "amount": 336.87,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Order from AliExpress",
+    "lines": [
+      {
+        "name": "RFC 3 Button Flip Key Case Car Key",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 3.0,
+        "unit": "pcs",
+        "unit_price": 92.8,
+        "ext_price": 278.4,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 336.87
+      }
+    ]
+  },
+  "total_token_count": 6141,
+  "time": 59.29643797874451
+}

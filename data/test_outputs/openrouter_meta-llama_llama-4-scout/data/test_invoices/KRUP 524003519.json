@@ -1,0 +1,109 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "13.03.2024",
+    "due_date": "27.03.2024",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "1001371/0300",
+      "bank_code": "CZEK",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrna\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "CZ25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 491-483-383",
+      "email": "None"
+    },
+    "counterparty_info": {
+      "company_name": "KRUP s.r.o.",
+      "address": {
+        "street": "Pr\u016fhonick\u00e1 133",
+        "city": "\u010cestlice",
+        "postalcode": "251 01",
+        "country": "Czech Republic"
+      },
+      "identification_number": "49358456",
+      "tax_number": "CZ49358456",
+      "phone": "+420 272 088 888",
+      "email": "krup pha@krup.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 4947.6,
+    "amount_rounding": 0.0,
+    "amount": 5732.74,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "PremiumCord HQ st\u00edn\u011bn\u00fd kabel stereo Jack 3.5mm - Jack 3.5mm M/M 5m",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 15.0,
+        "unit": "ks",
+        "unit_price": 68.0,
+        "ext_price": 1020.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1234.2
+      },
+      {
+        "name": "PremiumCord Prodluzovaci kabel sit' 230V, C13-C14, bily 2m - 5,55 Sitov\u00e9 a nap\u00e1jeci pripoy 0-0,5 kg",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 42.0,
+        "unit": "ks",
+        "unit_price": 51.9,
+        "ext_price": 2179.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2637.56
+      },
+      {
+        "name": "PremiumCord Kryt konektoru RJ45 - b\u00edl\u00fd - 0 polozka pro nulov\u00fd v\u00fdraz",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 200.0,
+        "unit": "ks",
+        "unit_price": 1.2,
+        "ext_price": 240.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 290.4
+      },
+      {
+        "name": "PremiumCord Patch kabel F/UTP RJ45-RJ45 10m - 5,84 IT kabe\u013a do 0,5kg",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 64.9,
+        "ext_price": 1298.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1570.58
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/KRUP 524003519.pdf",
+  "total_token_count": 3041,
+  "time": 17.940107345581055
+}

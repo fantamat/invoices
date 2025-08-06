@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "A",
+      "address": {
+        "street": "street",
+        "city": "city",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "B2",
+      "address": {
+        "street": "Street",
+        "city": "city",
+        "postalcode": "",
+        "country": "CZ"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 0.0,
+    "currency_id": "USD",
+    "vat_currency_id": "USD",
+    "description": "",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/Jialichuang 2731661A20240129184.pdf",
+  "total_token_count": 1310,
+  "time": 5.463341951370239
+}

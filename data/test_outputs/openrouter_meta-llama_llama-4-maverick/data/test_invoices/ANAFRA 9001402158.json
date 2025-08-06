@@ -1,0 +1,109 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "10.1.2025",
+    "due_date": "13.1.2025",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "199921885/0300",
+      "bank_code": "0300",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "CZ73030000000019921885",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 778 789 587",
+      "email": "daniel.lev@anafra.cz"
+    },
+    "counterparty_info": {
+      "company_name": "ANAFRA s.r.o.",
+      "address": {
+        "street": "5. kv\u011btna 1109/63",
+        "city": "Praha",
+        "postalcode": "140 00",
+        "country": "Czech Republic"
+      },
+      "identification_number": "26878291",
+      "tax_number": "CZ26878291",
+      "phone": "+420 778 789 587",
+      "email": "daniel.lev@anafra.cz"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 40100.0,
+    "amount_rounding": 0.0,
+    "amount": 40100.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "Supermicro MBD-H12SSL-I-C MB D-H12SSL-I-O",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 11700.0,
+        "ext_price": 11700.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 14157.0
+      },
+      {
+        "name": "AMD EPYC Milan 7313P UP 16C/32T 3.0G 128MB 155W - 100-000000339",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 10600.0,
+        "ext_price": 10600.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12826.0
+      },
+      {
+        "name": "Samsung 32GB DDR4-3200 2Rx4 LP ECC RDIMM, MEM-DR432L-SL02-ER32 - M393A4K40DB3-CWE",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 4.0,
+        "unit": "ks",
+        "unit_price": 2500.0,
+        "ext_price": 10000.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12100.0
+      },
+      {
+        "name": "Broadcom NetXtreme E-Adapter P210P - BCM957412A4120A BCM957412A4120AC",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 2.0,
+        "unit": "ks",
+        "unit_price": 3900.0,
+        "ext_price": 7800.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 9438.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/ANAFRA 9001402158.pdf",
+  "total_token_count": 5547,
+  "time": 44.130242586135864
+}

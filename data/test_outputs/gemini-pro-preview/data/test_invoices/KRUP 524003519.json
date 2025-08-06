@@ -1,0 +1,119 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "DNO2403131",
+    "external_invoice_number": "524003519",
+    "delivery_note_number": "OZ24008061",
+    "issue_date": "2024-03-13",
+    "due_date": "2024-03-27",
+    "taxable_supply_date": "2024-03-13",
+    "deduction_date": "2024-03-13",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "1001371",
+      "bank_code": "0300",
+      "constant_symbol": "0008",
+      "variable_symbol": "524003519",
+      "specific_symbol": "12788",
+      "iban": "CZ4103000000000001001371",
+      "bic": "CEKOCZPP"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "HRONOV",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "491-483-383",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "KRUP s.r.o.",
+      "address": {
+        "street": "Ln\u00e1\u0159sk\u00e1 776/52",
+        "city": "Praha - Uh\u0159\u00edn\u011bves",
+        "postalcode": "10400",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "49358456",
+      "tax_number": "CZ49358456",
+      "phone": "272 088 888",
+      "email": "krup.pha@krup.cz"
+    },
+    "shipping_info": {
+      "account_id": "DEYMED Diagnostic s.r.o.",
+      "contact_id": "Veronika \u017dilkov\u00e1",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "HRONOV",
+        "postalcode": "549 31",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "phone": "491-483-383",
+      "email": ""
+    },
+    "amount_wo_rounding": 5732.74,
+    "amount_rounding": 0.0,
+    "amount": 5732.74,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Fakturujeme V\u00e1m zbo\u017e\u00ed dle Va\u0161\u00ed objedn\u00e1vky",
+    "lines": [
+      {
+        "name": "PremiumCord HQ st\u00edn\u011bn\u00fd kabel stereo Jack 3.5mm - Jack 3.5mm M/M 5m",
+        "mfr_part_no": "kjqmm5",
+        "ean": "",
+        "quantity": 15.0,
+        "unit": "ks",
+        "unit_price": 68.0,
+        "ext_price": 1020.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1234.2
+      },
+      {
+        "name": "PremiumCord Prodlu\u017eovac\u00ed kabel s\u00ed\u0165 230V, C13-C14, b\u00edl\u00fd 2m",
+        "mfr_part_no": "kps2w",
+        "ean": "",
+        "quantity": 42.0,
+        "unit": "ks",
+        "unit_price": 51.9,
+        "ext_price": 2179.8,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2637.56
+      },
+      {
+        "name": "PremiumCord Kryt konektoru RJ45 - b\u00edl\u00e1",
+        "mfr_part_no": "srjk-white",
+        "ean": "",
+        "quantity": 200.0,
+        "unit": "ks",
+        "unit_price": 1.2,
+        "ext_price": 240.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 290.4
+      },
+      {
+        "name": "PremiumCord Patch kabel F/UTP RJ45-RJ45 10m",
+        "mfr_part_no": "sstp10",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 64.9,
+        "ext_price": 1298.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1570.58
+      }
+    ]
+  },
+  "total_token_count": 5154,
+  "time": 47.14800190925598
+}

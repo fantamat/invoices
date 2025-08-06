@@ -1,0 +1,131 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "2411/3339",
+    "external_invoice_number": "FV-785/2024",
+    "delivery_note_number": "FV-785/2024",
+    "issue_date": "29.10.2024",
+    "due_date": "12.11.2024",
+    "taxable_supply_date": "29.10.2024",
+    "deduction_date": "29.10.2024",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "284129104",
+      "bank_code": "0300",
+      "constant_symbol": "1015785",
+      "variable_symbol": "1015785",
+      "specific_symbol": "",
+      "iban": "CZ910300000000284129104",
+      "bic": "CEKOCZPP"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Centrum slu\u017eeb Broumov s r.o.",
+      "address": {
+        "street": "Kl\u00e1\u0161tern\u00ed 225",
+        "city": "Broumov",
+        "postalcode": "550 01",
+        "country": "\u010cesk\u00e1 republika"
+      },
+      "identification_number": "28796047",
+      "tax_number": "CZ28796047",
+      "phone": "",
+      "email": "adela.klicnarova@aprb.cz"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 20754.4,
+    "amount_rounding": 0.0,
+    "amount": 20754.4,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "Fakturujeme V\u00e1m tiskov\u00e9 slu\u017eby",
+    "lines": [
+      {
+        "name": "Samolepa AC_68103_D_P1Z1_205_ver1, 222 x 150 mm, LAMLESK 1/1",
+        "mfr_part_no": "68103",
+        "ean": "",
+        "quantity": 150000.0,
+        "unit": "ks",
+        "unit_price": 25.29,
+        "ext_price": 3793.5,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4590.14
+      },
+      {
+        "name": "Etiketa - 300_AC_G500_D_P1_210_ver9 - 100 x 60 mm + LAMLESK 1/1",
+        "mfr_part_no": "G500",
+        "ean": "",
+        "quantity": 250000.0,
+        "unit": "ks",
+        "unit_price": 2.95,
+        "ext_price": 737.5,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 892.38
+      },
+      {
+        "name": "Etiketa - 400_AC_G1000_D_P1_205_ver6 - 100 x 115 mm + LAMLESK 1/1",
+        "mfr_part_no": "G1000",
+        "ean": "",
+        "quantity": 200000.0,
+        "unit": "ks",
+        "unit_price": 4.99,
+        "ext_price": 998.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1207.58
+      },
+      {
+        "name": "2 sady (velikost 5x5m) - 64x2 + 30x3 color",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 218000.0,
+        "unit": "ks",
+        "unit_price": 46.3,
+        "ext_price": 10093.4,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12213.0
+      },
+      {
+        "name": "3 sady (velikost 3x3m) - 36x2 + 6x3 pr\u00e1zdn\u00e9",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 90000.0,
+        "unit": "ks",
+        "unit_price": 17.0,
+        "ext_price": 1530.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1851.3
+      }
+    ]
+  },
+  "total_token_count": 4096,
+  "time": 38.320595264434814
+}

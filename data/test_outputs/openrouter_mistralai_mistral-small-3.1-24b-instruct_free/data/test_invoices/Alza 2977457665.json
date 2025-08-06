@@ -1,0 +1,108 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "11.03.2025",
+    "due_date": "25.03.2025",
+    "taxable_supply_date": "11.03.2025",
+    "deduction_date": "",
+    "payment_method": "paypal",
+    "banking_info": {
+      "account_number": "2171532/0800",
+      "bank_code": "5402406201",
+      "constant_symbol": "",
+      "variable_symbol": "5402406201",
+      "specific_symbol": "",
+      "iban": "2171532/0800",
+      "bic": "5402406201"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alza.cz a.s.",
+      "address": {
+        "street": "Jankovcova 1522/53",
+        "city": "praha 7",
+        "postalcode": "17000",
+        "country": "\u010desk\u00e1 republika"
+      },
+      "identification_number": "27082440",
+      "tax_number": "CZ27082440",
+      "phone": "+420225340111",
+      "email": "www.alza.cz/Kontakt"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e0cout",
+        "city": "hronov 1",
+        "postalcode": "54934",
+        "country": "\u00edtalsk\u00e1 republika"
+      },
+      "identification_number": "25284558",
+      "tax_number": "CZ25284584",
+      "phone": "+420770315075",
+      "email": "kuzelka@deymed.cz"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "Kudrn\u00e0cout",
+        "city": "hronov 1",
+        "postalcode": "54934",
+        "country": "\u00edtalsk\u00e1 republika"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 211.0,
+    "amount_rounding": 0.0,
+    "amount": 211.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "Kancel\u00e1\u00f8sk\u00fd pap\u00edr Alza Basic A3 80g 250 list\u00fb",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 174.36,
+        "ext_price": 174.36,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 210.98
+      },
+      {
+        "name": "Nehmotn\u00fd produkt Doprava - AlzaBox, Platba - Faktura se splatnosti - automatick\u00e1 expedice",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 57.02,
+        "ext_price": 57.02,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 69.0
+      },
+      {
+        "name": "Nehmotn\u00fd produkt Sleva na dopravn\u00e9 - AlzaBox ",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": -1.0,
+        "unit": "ks",
+        "unit_price": 57.02,
+        "ext_price": 57.02,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 69.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/Alza 2977457665.pdf",
+  "total_token_count": 3112,
+  "time": 80.50343918800354
+}

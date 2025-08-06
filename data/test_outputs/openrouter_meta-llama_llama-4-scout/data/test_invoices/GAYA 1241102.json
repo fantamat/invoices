@@ -1,0 +1,97 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2024-06-04",
+    "due_date": "2024-06-18",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "SK47 1100 0000 0026 2102 6958",
+      "bank_code": "Tatrabanka",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "None",
+      "company_name": "GAYA, s.r.o.",
+      "address": {
+        "street": "P.O.Hviezdoslava 23B",
+        "city": "036 01 Martin",
+        "postalcode": "",
+        "country": "SK"
+      },
+      "identification_number": "36430307",
+      "tax_number": "SK2022003863",
+      "phone": "043/324 0000",
+      "email": "ekon@gaya.sk"
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic, s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "549 34 Hronov",
+        "postalcode": "",
+        "country": "SK"
+      },
+      "identification_number": "25284584",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 9.66,
+    "amount_rounding": 0.0,
+    "amount": 11.59,
+    "currency_id": "EUR",
+    "vat_currency_id": "EUR",
+    "description": "Fakt\u00farujeme V\u00e1m VOIP volania pod\u013ea zmluvy 2110873 za obdobie 01.03.2024 - 31.05.2024",
+    "lines": [
+      {
+        "name": "obdobie:2024/03, z\u00f3na GAYA SK MOBIL",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20.02,
+        "unit": "min",
+        "unit_price": 0.166,
+        "ext_price": 3.32332,
+        "tax_class_id": 20.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3.32
+      },
+      {
+        "name": "obdobie:2024/04, z\u00f3na GAYA SK MOBIL",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 13.6,
+        "unit": "min",
+        "unit_price": 0.166,
+        "ext_price": 2.2576,
+        "tax_class_id": 20.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 2.26
+      },
+      {
+        "name": "z\u00f3na GAYA SK MOBIL",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 24.57,
+        "unit": "min",
+        "unit_price": 0.166,
+        "ext_price": 4.08012,
+        "tax_class_id": 20.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4.08
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/GAYA 1241102.pdf",
+  "total_token_count": 2964,
+  "time": 18.288700819015503
+}

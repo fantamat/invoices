@@ -1,0 +1,121 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "2024-10-29",
+    "due_date": "2024-10-29",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "284129104/0300",
+      "bank_code": "20100000",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "CZ910300000000284129104",
+      "bic": "CEKO CZ P P"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54931",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ215284703",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Centrum slu\u017ceb Broumov s r.o.",
+      "address": {
+        "street": "Kla\u0161tern\u00ed 225",
+        "city": "Broumov",
+        "postalcode": "550 01",
+        "country": "Czech Republic"
+      },
+      "identification_number": "28796047",
+      "tax_number": "CZ28796047",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 20754.0,
+    "amount_rounding": 0.0,
+    "amount": 20754.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "",
+    "lines": [
+      {
+        "name": "Samolepa AC 68103_D P121_205_ver1 222 x 150 mm_LAMLESK 1/1",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 15000.0,
+        "unit": "ks",
+        "unit_price": 25.29,
+        "ext_price": 379350.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 459000.0
+      },
+      {
+        "name": "Etiqueta 300_AC_G500_D P1_210_ver9 100 x 60 mm_LAMLESK 1/1",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 25000.0,
+        "unit": "ks",
+        "unit_price": 2.95,
+        "ext_price": 73750.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 892.38
+      },
+      {
+        "name": "Etiqueta 400_AC_G100_D P1_205_ver 100 x 115 mm_LAMLESK 1/1",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 20000.0,
+        "unit": "ks",
+        "unit_price": 4.99,
+        "ext_price": 9980.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1207.58
+      },
+      {
+        "name": "2 sady(velikost 5x5) 64x2 + 30x3 color",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 218.0,
+        "unit": "ks",
+        "unit_price": 46.0,
+        "ext_price": 10094.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 12213.0
+      },
+      {
+        "name": "3 sady (velikost 3x3) 36x2 + 6x3 pr\u00e1zdn\u00e9 ",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 90.0,
+        "unit": "ks",
+        "unit_price": 17.0,
+        "ext_price": 15300.0,
+        "tax_class_id": 1.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1851.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/Centrum slu\u017eeb Broumov FV7852024.pdf",
+  "total_token_count": 3301,
+  "time": 51.41676902770996
+}

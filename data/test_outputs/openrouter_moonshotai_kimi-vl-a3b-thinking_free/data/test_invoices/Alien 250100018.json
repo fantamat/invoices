@@ -1,0 +1,60 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "21525500227",
+      "bank_code": "115",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": "BIC not provided"
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Alien Technology s.r.o",
+      "address": {
+        "street": "Velk\u00e9 Dv\u011b\u0159en\u00ed 91",
+        "city": "Hronov",
+        "postalcode": "549 34",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "491481298",
+      "email": "obchod@alien.cz"
+    },
+    "counterparty_info": {
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1kov\u00e1 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 0.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/Alien 250100018.pdf",
+  "total_token_count": 2419,
+  "time": 11.71117615699768
+}

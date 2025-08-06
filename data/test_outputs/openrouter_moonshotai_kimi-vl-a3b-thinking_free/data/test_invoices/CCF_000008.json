@@ -1,0 +1,79 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "credit",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Medical SDN BHD",
+      "address": {
+        "street": "Unit 02-01, Jalan Metia 2, 31100 Opesia, Taiping, Perak",
+        "city": "Taiping",
+        "postalcode": "31100",
+        "country": "Malaysia"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "+6074189317",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Lake Powell Travel Park",
+      "address": {
+        "street": "101 West Glen",
+        "city": "Lake Powell",
+        "postalcode": "AZ",
+        "country": "USA"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "+1 (480) 475-6948",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": null,
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 49.77,
+    "currency_id": "USD",
+    "vat_currency_id": null,
+    "description": "Fuel Purchase",
+    "lines": [
+      {
+        "name": "REGULAR",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.0,
+        "unit": "ks",
+        "unit_price": 15.0866,
+        "ext_price": 15.0866,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 15.0866
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/CCF_000008.pdf",
+  "total_token_count": 1423,
+  "time": 7.4471235275268555
+}

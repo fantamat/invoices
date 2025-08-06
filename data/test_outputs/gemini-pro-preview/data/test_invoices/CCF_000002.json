@@ -1,0 +1,239 @@
+{
+  "invoice": {
+    "type": "received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "250100022",
+    "delivery_note_number": "250100022",
+    "issue_date": "2025-05-29",
+    "due_date": "2025-06-12",
+    "taxable_supply_date": "2025-05-29",
+    "deduction_date": "2025-05-29",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "115-8152550227",
+      "bank_code": "0100",
+      "constant_symbol": "0308",
+      "variable_symbol": "250100022",
+      "specific_symbol": "string",
+      "iban": "string",
+      "bic": "string"
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYMED Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "string",
+      "email": "novotna@deymed.com"
+    },
+    "counterparty_info": {
+      "company_name": "ALIEN technology",
+      "address": {
+        "street": "Velk\u00fd D\u0159ev\u00ed\u010d 91",
+        "city": "Hronov",
+        "postalcode": "549 34",
+        "country": "Czech Republic"
+      },
+      "identification_number": "07521341",
+      "tax_number": "CZ07521341",
+      "phone": "491481298",
+      "email": "obchod@alien.cz"
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "string",
+        "city": "string",
+        "postalcode": "string",
+        "country": "string"
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 54419.51,
+    "amount_rounding": 0.49,
+    "amount": 54420.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "string",
+    "lines": [
+      {
+        "name": "DR\u017d\u00c1K KRYT\u016e XT LEV\u00dd",
+        "mfr_part_no": "73-100-157",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 238.8,
+        "ext_price": 4776.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5778.96
+      },
+      {
+        "name": "DR\u017d\u00c1K KRYT\u016e XT PRAV\u00dd",
+        "mfr_part_no": "73-100-158",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 238.8,
+        "ext_price": 4776.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5778.96
+      },
+      {
+        "name": "KRYT VYP\u00cdNA\u010cE TRAFA",
+        "mfr_part_no": "41-096-98",
+        "ean": "",
+        "quantity": 40.0,
+        "unit": "ks",
+        "unit_price": 82.16,
+        "ext_price": 3286.4,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3976.54
+      },
+      {
+        "name": "\u00daCHYT P\u0158ECHODU \u0158EMENU ZDVIHU",
+        "mfr_part_no": "41-096-71",
+        "ean": "",
+        "quantity": 80.0,
+        "unit": "ks",
+        "unit_price": 47.2,
+        "ext_price": 3776.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 4568.96
+      },
+      {
+        "name": "ARETACE BO\u010cNICE KRYT\u016e",
+        "mfr_part_no": "41-096-91",
+        "ean": "",
+        "quantity": 40.0,
+        "unit": "ks",
+        "unit_price": 152.18,
+        "ext_price": 6087.2,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 7365.51
+      },
+      {
+        "name": "DR\u017d\u00c1K VRCHN\u00cdHO KONC\u00c1KU",
+        "mfr_part_no": "41-096-81",
+        "ean": "",
+        "quantity": 60.0,
+        "unit": "ks",
+        "unit_price": 23.6,
+        "ext_price": 1416.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1713.36
+      },
+      {
+        "name": "DR\u017d\u00c1K KABELOV\u00c9HO \u0158ET\u011aZU",
+        "mfr_part_no": "41-096-79",
+        "ean": "",
+        "quantity": 60.0,
+        "unit": "ks",
+        "unit_price": 49.16,
+        "ext_price": 2949.6,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3569.02
+      },
+      {
+        "name": "KRYT V\u00ddVOD\u016e KABEL\u016e SLOPU",
+        "mfr_part_no": "41-096-94",
+        "ean": "",
+        "quantity": 60.0,
+        "unit": "ks",
+        "unit_price": 51.66,
+        "ext_price": 3099.6,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3750.52
+      },
+      {
+        "name": "PODLO\u017dKA SLOUPU",
+        "mfr_part_no": "41-096-T01",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 459.8,
+        "ext_price": 4598.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 5563.58
+      },
+      {
+        "name": "PODPORA KOLE\u010cKA_PRAV\u00c1",
+        "mfr_part_no": "41-096-T02",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 305.8,
+        "ext_price": 3058.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3700.18
+      },
+      {
+        "name": "PODPORA KOLE\u010cKA_LEV\u00c1",
+        "mfr_part_no": "41-096-T03",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 305.8,
+        "ext_price": 3058.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 3700.18
+      },
+      {
+        "name": "ARETACE PODPORY KOLE\u010cKA",
+        "mfr_part_no": "41-096-T04",
+        "ean": "",
+        "quantity": 20.0,
+        "unit": "ks",
+        "unit_price": 67.2,
+        "ext_price": 1344.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1626.24
+      },
+      {
+        "name": "POZI\u010cN\u00cd \u010cLEN OP\u011aRY",
+        "mfr_part_no": "41-096-T05",
+        "ean": "",
+        "quantity": 10.0,
+        "unit": "ks",
+        "unit_price": 162.2,
+        "ext_price": 1622.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1962.62
+      },
+      {
+        "name": "PR\u016eCHODKA KABELU",
+        "mfr_part_no": "47-405-20",
+        "ean": "",
+        "quantity": 60.0,
+        "unit": "ks",
+        "unit_price": 18.8,
+        "ext_price": 1128.0,
+        "tax_class_id": 21.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 1364.88
+      }
+    ]
+  },
+  "total_token_count": 8871,
+  "time": 80.95345640182495
+}

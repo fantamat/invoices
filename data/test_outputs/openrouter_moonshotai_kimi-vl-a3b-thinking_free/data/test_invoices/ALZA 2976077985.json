@@ -1,0 +1,60 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "unknown",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Alien",
+      "company_name": "Dhomm\u00e9 Lac calme u du Paix Esta AP172r1k pettyCashreimbursement formAP172r1k pettyCashreimbursement form",
+      "address": {
+        "street": "S'+acaciate et de la Paix 25A, Chiasso borrowed in AP172r1k pettyCashreimbursement formAGobrien Dan LU 2814 tPRo",
+        "city": "Geneva Switzerland",
+        "postalcode": "",
+        "country": "CH\u0430\u0442\u0430F costiation 3BENV ~ "
+      },
+      "identification_number": "CP92918BPT",
+      "tax_number": "CP92918BPT",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "DEYMED Diagnostic s.r.o",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova 533",
+        "city": "Hronov",
+        "postalcode": "54934",
+        "country": "CZ}}{{ Ocena oznaee ana? "
+      },
+      "identification_number": "25284584",
+      "tax_number": "",
+      "phone": "+420770315075",
+      "email": "kuzelka@deymed.czry.bohodiClVLOOkpeyILnZ ofr]{fir}:ONCelik\u5723\u8bde\u8282 21inteligence date:#(74)"
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 395.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/ALZA 2976077985.pdf",
+  "total_token_count": 2559,
+  "time": 6.200063943862915
+}

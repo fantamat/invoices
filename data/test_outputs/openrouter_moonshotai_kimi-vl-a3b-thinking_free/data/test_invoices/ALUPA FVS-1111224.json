@@ -1,0 +1,84 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "bank_transfer",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "postalcode": "",
+        "country": ""
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": {
+      "account_id": "",
+      "contact_id": "",
+      "address": {
+        "street": "",
+        "city": "",
+        "postalcode": "",
+        "country": ""
+      },
+      "phone": "",
+      "email": ""
+    },
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 0.0,
+    "currency_id": "CZK",
+    "vat_currency_id": "CZK",
+    "description": "INVOICE",
+    "lines": [
+      {
+        "name": "",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 0.0,
+        "unit": "ks",
+        "unit_price": 0.0,
+        "ext_price": 0.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 0.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/ALUPA FVS-1111224.pdf",
+  "total_token_count": 1410,
+  "time": 8.940887451171875
+}

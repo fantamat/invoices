@@ -1,0 +1,73 @@
+{
+  "invoice": {
+    "type": "unknown",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "18.9.2024",
+    "due_date": "18.9.2024",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "Deymed Diagnostic s.r.o.",
+      "address": {
+        "street": "Kudrn\u00e1\u010dova",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": ""
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+420 491 481 298",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "Josef \u0160koda - Kompletn\u00ed realiza\u010dn\u00ed slu\u017eby v oblasti BOZP a PO",
+      "address": {
+        "street": "N\u00e1m\u011brka",
+        "city": "Rtyn\u011b v Podkrkono\u0161\u00ed",
+        "postalcode": "542 33",
+        "country": ""
+      },
+      "identification_number": "87073498",
+      "tax_number": "",
+      "phone": "+420 605 16 22 11",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 21100.0,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "",
+    "lines": [
+      {
+        "name": "",
+        "mfr_part_no": "",
+        "ean": "",
+        "quantity": 1.6,
+        "unit": "",
+        "unit_price": 13187.5,
+        "ext_price": 21100.0,
+        "tax_class_id": 0.0,
+        "discount_percent": 0.0,
+        "total_with_vat": 21100.0
+      }
+    ]
+  },
+  "file_path": "data/test_invoices/Josef \u0160koda.pdf",
+  "total_token_count": 2740,
+  "time": 11.501763343811035
+}

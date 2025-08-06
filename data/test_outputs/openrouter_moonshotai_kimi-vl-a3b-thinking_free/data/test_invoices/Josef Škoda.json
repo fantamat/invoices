@@ -1,0 +1,60 @@
+{
+  "invoice": {
+    "type": "receipt_received",
+    "internal_invoice_number": "",
+    "external_invoice_number": "",
+    "delivery_note_number": "",
+    "issue_date": "",
+    "due_date": "",
+    "taxable_supply_date": "",
+    "deduction_date": "",
+    "payment_method": "cash",
+    "banking_info": {
+      "account_number": "25284584",
+      "bank_code": "",
+      "constant_symbol": "",
+      "variable_symbol": "",
+      "specific_symbol": "",
+      "iban": "",
+      "bic": ""
+    },
+    "own_company_info": {
+      "name": "Deymed",
+      "company_name": "DEYME Diagnostic s.r.o",
+      "address": {
+        "street": "Kudrn\u00e1va 533, 549 31 Hronov",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "25284584",
+      "tax_number": "CZ25284584",
+      "phone": "+421 481 481 298",
+      "email": ""
+    },
+    "counterparty_info": {
+      "company_name": "",
+      "address": {
+        "street": "Kudrn\u00e1va 533, 549 31 Hronov",
+        "city": "Hronov",
+        "postalcode": "549 31",
+        "country": "Czech Republic"
+      },
+      "identification_number": "",
+      "tax_number": "",
+      "phone": "",
+      "email": ""
+    },
+    "shipping_info": null,
+    "amount_wo_rounding": 0.0,
+    "amount_rounding": 0.0,
+    "amount": 19.5,
+    "currency_id": "CZK",
+    "vat_currency_id": null,
+    "description": "-incurred-expenses",
+    "lines": []
+  },
+  "file_path": "data/test_invoices/Josef \u0160koda.pdf",
+  "total_token_count": 1355,
+  "time": 9.155404090881348
+}
