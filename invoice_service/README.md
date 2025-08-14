@@ -41,11 +41,13 @@ uv pip install -r requirements.txt
 $env:GEMINI_API_KEY="your-api-key-here"
 $env:GEMINI_MODEL="gemini-2.5-pro-preview-03-25" # Or your preferred Gemini model
 $env:DB_LOCATION="db"
+$env:CALLBACK_URL="https://example.com/reponse/callback"
 
 # On Linux/macOS
 export GEMINI_API_KEY="your-api-key-here"
 export GEMINI_MODEL="gemini-2.5-pro-preview-03-25" # Or your preferred Gemini model
 export DB_LOCATION="db"
+export CALLBACK_URL="https://example.com/reponse/callback"
 ```
 
 ## Usage
@@ -171,6 +173,7 @@ To persist database files and logs outside the container, use Docker or Podman v
 docker run -p 8000:8000 \
     -e GEMINI_API_KEY="your-api-key-here" \
     -e GEMINI_MODEL="gemini-2.5-pro-preview-03-25" \
+    -e CALLBACK_URL="https://example.com/reponse/callback" \
     -v invoice_db:/app/db \
     -v invoice_logs:/app/logs \
     invoice-service

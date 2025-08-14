@@ -39,7 +39,7 @@ DB_PATH = DB_DIR / "invoices.db"
 
 MODEL_NAME = os.environ.get("GEMINI_MODEL", "")
 
-CALLBACK_URL = os.environ.get("GEMINI_CALLBACK_URL", "")
+CALLBACK_URL = os.environ.get("CALLBACK_URL", "")
 
 def setup_database():
     """Initialize the SQLite database with required tables."""
