@@ -4,7 +4,7 @@ import time
 import os
 
 from test_utility import test_all
-from invoice_service.invoice_types import ExtendedInvoice
+from invoice_service.invoice_types import Invoice
 import traceback
 from markitdown import MarkItDown  # Microsoft's library for converting documents to markdown
 from pdf2image import convert_from_path
@@ -70,7 +70,7 @@ def ollama_test_model(ollama_model_name, ollama_host):
 
     def process_file(file_path):
         try:
-            payload = ollama_prepare_payload(ollama_model_name, file_path, ExtendedInvoice)
+            payload = ollama_prepare_payload(ollama_model_name, file_path, Invoice)
             
             api_url = f"{ollama_host}/api/generate"
             
@@ -82,7 +82,7 @@ def ollama_test_model(ollama_model_name, ollama_host):
             # The actual generated text field can vary based on Ollama version or model.
             # Common fields are "response" for /api/generate or "message.content" for /api/chat
             generated_text = response_json.get("response")
-            invoice = ExtendedInvoice.model_validate_json(generated_text)
+            invoice = Invoice.model_validate_json(generated_text)
             if invoice is None:
                 print(f"Warning: Could not parse generated text as Invoice for {file_path}. Generated text: {generated_text}")
                 return {"error": "Could not parse generated text as Invoice", "generated_text": generated_text}

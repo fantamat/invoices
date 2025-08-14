@@ -2,10 +2,8 @@ fastapi
 uvicorn
 pydantic
 python-multipart
-google-generativeai
+google-genai
 pillow
 markitdown[pdf,docx]
 pdf2image
-
-# Testing dependencies
 httpx

@@ -6,7 +6,7 @@ from google import genai
 from test_utility import test_all, process_pdf
 
 
-from invoice_service.invoice_types import ExtendedInvoice
+from invoice_service.invoice_types import Invoice
 
 
 
@@ -34,10 +34,10 @@ def main():
             contents=contents,
             config={
                 'response_mime_type': 'application/json',
-                'response_schema': ExtendedInvoice,
+                'response_schema': Invoice,
             },
         )
-        invoice: ExtendedInvoice = response.parsed
+        invoice: Invoice = response.parsed
         return {
             "invoice": invoice.model_dump(),
             "total_token_count": response.usage_metadata.total_token_count,

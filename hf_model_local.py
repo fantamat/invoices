@@ -9,7 +9,7 @@ from pdf2image import convert_from_path
 
 from test_utility import test_all, text_to_json
 
-from invoice_service.invoice_types import ExtendedInvoice
+from invoice_service.invoice_types import Invoice
 
 
 

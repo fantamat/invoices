@@ -1,4 +1,4 @@
-# from ..invoice_service.invoice_types import ExtendedInvoice
+# from ..invoice_service.invoice_types import Invoice
 # from transformers import pipeline
 # import json
 
@@ -14,7 +14,7 @@
 #                 "text": (
 #                     "Extract all invoice information in the following JSON format. "
 #                     "Respond ONLY with valid JSON, no explanations or extra text.\n"
-#                     f"{json.dumps(ExtendedInvoice.model_json_schema(), indent=2)}"
+#                     f"{json.dumps(Invoice.model_json_schema(), indent=2)}"
 #             )}
 #         ]
 #     },
@@ -29,7 +29,7 @@
 # result = pipe(text=messages)
 # # Try to parse and validate the result
 # try:
-#     invoice = ExtendedInvoice.model_validate_json(result[0]['generated_text'])
+#     invoice = Invoice.model_validate_json(result[0]['generated_text'])
 #     print("Valid invoice:", invoice.model_dump_json(indent=2))
 # except Exception as e:
 #     print("Invalid invoice format:", e)

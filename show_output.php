@@ -3,7 +3,7 @@
  * Invoice Output Viewer
  * 
  * This script displays the JSON outputs of invoice analysis models
- * based on the ExtendedInvoice schema defined in invoice_types.py
+ * based on the Invoice schema defined in invoice_types.py
  * 
  * PHP Version 7.0+
  */
@@ -330,7 +330,7 @@ if ($selectedModel) {
             ?>
             
             <?php 
-            // Try to display based on ExtendedInvoice schema, but be flexible since JSON formats may vary
+            // Try to display based on Invoice schema, but be flexible since JSON formats may vary
             ?>
             
             <?php if (isset($jsonData['type'])): ?>
@@ -386,7 +386,7 @@ if ($selectedModel) {
             <?php endif; ?>
             
             <?php 
-            // Company Information (own company) - ExtendedInvoice format
+            // Company Information (own company) - Invoice format
             if (isset($jsonData['own_company_info'])): 
             ?>
             <div class="section">
@@ -421,7 +421,7 @@ if ($selectedModel) {
             <?php endif; ?>
             
             <?php 
-            // Counterparty Information - ExtendedInvoice format
+            // Counterparty Information - Invoice format
             if (isset($jsonData['counterparty_info'])): 
             ?>
             <div class="section">
@@ -515,7 +515,7 @@ if ($selectedModel) {
             <?php endif; ?>
             
             <?php
-            // Banking Information - ExtendedInvoice format
+            // Banking Information - Invoice format
             if (isset($jsonData['banking_info'])): 
             ?>
             <div class="section">
@@ -552,7 +552,7 @@ if ($selectedModel) {
             <div class="section">
                 <h2>Amount Information</h2>
                 
-                <?php if (isset($jsonData['amount'])): // ExtendedInvoice format ?>
+                <?php if (isset($jsonData['amount'])): // Invoice format ?>
                 <div class="info-row">
                     <div class="info-label">Total Amount:</div>
                     <div class="info-value">

@@ -5,7 +5,7 @@ import time
 import os
 
 from test_utility import test_all, text_to_json
-from invoice_service.invoice_types import ExtendedInvoice
+from invoice_service.invoice_types import Invoice
 import traceback
 
 
@@ -31,7 +31,7 @@ def ollama_test_model(ollama_model_name, ollama_host="http://localhost:11434"):
                 "prompt": "Extract the structured data from the image in the given JSON format.",
                 "images": [base64_image],
                 "stream": False,  # Get the full response at once
-                "format": ExtendedInvoice.model_json_schema()
+                "format": Invoice.model_json_schema()
             }
             
             api_url = f"{ollama_host}/api/generate"
@@ -44,7 +44,7 @@ def ollama_test_model(ollama_model_name, ollama_host="http://localhost:11434"):
             # The actual generated text field can vary based on Ollama version or model.
             # Common fields are "response" for /api/generate or "message.content" for /api/chat
             generated_text = response_json.get("response")
-            invoice = ExtendedInvoice.model_validate_json(generated_text)
+            invoice = Invoice.model_validate_json(generated_text)
             if invoice is None:
                 print(f"Warning: Could not parse generated text as Invoice for {image_path}. Generated text: {generated_text}")
                 return {"error": "Could not parse generated text as Invoice", "generated_text": generated_text}

@@ -6,7 +6,7 @@ import requests
 import json
 
 from test_utility import test_all
-from invoice_service.invoice_types import ExtendedInvoice
+from invoice_service.invoice_types import Invoice
 from markitdown import MarkItDown
 from pdf2image import convert_from_path
 from io import BytesIO
@@ -80,7 +80,7 @@ def openrouter_send_request(model_name, api_key, user_content):
                 "type": "json_schema",
                 "json_schema": {
                     "name": "InvoiceData",
-                    "schema": ExtendedInvoice.model_json_schema(),
+                    "schema": Invoice.model_json_schema(),
                     "strict": True,
                 },
             },
@@ -98,7 +98,7 @@ def openrouter_send_request(model_name, api_key, user_content):
     generated_text = response_data["choices"][0]["message"]["content"]
     token_count = response_data["usage"]["total_tokens"]
     try:
-        invoice = ExtendedInvoice.model_validate_json(generated_text)
+        invoice = Invoice.model_validate_json(generated_text)
         return invoice, token_count
     except Exception as e:
         return None

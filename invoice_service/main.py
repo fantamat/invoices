@@ -18,6 +18,10 @@ from pdf2image import convert_from_path
 
 from invoice_types import Invoice
 
+from contextlib import asynccontextmanager
+import httpx
+import asyncio
+
 
 # Configure logging
 LOG_DIR = Path("logs")
@@ -34,6 +38,8 @@ DB_DIR.mkdir(exist_ok=True)
 DB_PATH = DB_DIR / "invoices.db"
 
 MODEL_NAME = os.environ.get("GEMINI_MODEL", "")
+
+CALLBACK_URL = os.environ.get("GEMINI_CALLBACK_URL", "")
 
 def setup_database():
     """Initialize the SQLite database with required tables."""
@@ -83,7 +89,7 @@ logger.addHandler(console_handler)
 client = None  # Will be initialized on startup
 
 
-from contextlib import asynccontextmanager
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -316,6 +322,85 @@ async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...)
     
     finally:
         # Clean up the temp file
+        if os.path.exists(temp_file_path):
+            os.remove(temp_file_path)
+
+
+@app.post("/invoice/async", response_class=JSONResponse)
+async def process_invoice_async(file: UploadFile = File(...), file_id: str = Form(...)):
+    """
+    Asynchronously process an invoice document and immediately respond.
+    The result will be sent to the configured CALLBACK_URL.
+    """
+    file_extension = file.filename.lower().split('.')[-1]
+    temp_file_path = tempfile.mktemp(suffix=f'.{file_extension}')
+    try:
+        content = await file.read()
+        with open(temp_file_path, 'wb') as temp_file:
+            temp_file.write(content)
+
+        # Respond immediately
+        response_data = {"status": "processing", "file_id": file_id, "filename": file.filename}
+        asyncio.create_task(
+            _process_and_callback(
+                temp_file_path,
+                file_extension,
+                file_id,
+                file.filename,
+                CALLBACK_URL
+            )
+        )
+        return response_data
+    finally:
+        # Do not remove temp file here; cleanup is handled in the background task
+        pass
+
+async def _process_and_callback(temp_file_path, file_extension, file_id, filename, callback_url):
+    file_type = None
+    result = None
+    error_message = None
+    try:
+        if file_extension in ['jpg', 'jpeg', 'png']:
+            result = process_image(temp_file_path)
+            file_type = "image"
+        elif file_extension == 'pdf':
+            result = process_pdf(temp_file_path)
+            file_type = "pdf"
+        elif file_extension == 'docx':
+            result = process_docx(temp_file_path)
+            file_type = "docx"
+        else:
+            error_message = f"Unsupported file format: {file_extension}"
+            result = {"error": error_message}
+            file_type = "unsupported"
+
+        if result and "invoice" in result:
+            result["file_id"] = file_id
+
+        # Save to database
+        save_to_database(
+            file_id=file_id,
+            file_name=filename,
+            file_type=file_type,
+            token_count=result.get("total_token_count") if result else None,
+            request_data={"filename": filename, "file_id": file_id},
+            response_data=result,
+            error_message=error_message
+        )
+
+        # Send callback if URL is set
+        if callback_url:
+            async with httpx.AsyncClient(timeout=30) as client:
+                await client.post(callback_url, json=result if result else {"error": error_message, "file_id": file_id})
+        else:
+            logger.warning("No CALLBACK_URL configured; skipping callback.")
+    except Exception as e:
+        logger.error(f"Async processing error for file {filename}: {str(e)}")
+        # Attempt to send error callback
+        if callback_url:
+            async with httpx.AsyncClient(timeout=30) as client:
+                await client.post(callback_url, json={"error": str(e), "file_id": file_id})
+    finally:
         if os.path.exists(temp_file_path):
             os.remove(temp_file_path)
 

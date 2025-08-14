@@ -1,5 +1,9 @@
 FROM python:3.11-slim
 
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    DEBUG=False 
+
 WORKDIR /app
 
 # Install system dependencies for PDF processing
@@ -8,22 +12,28 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirements and install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the application files
-COPY . .
+COPY requirements.txt .
+
+# Install Python dependencies with uv
+RUN pip install uv && \
+    uv venv --python=python3.11 && \
+    uv pip install -r requirements.txt && \
+    pip uninstall -y uv
+
+
+# activate the virtual environment
+ENV PATH="/app/.venv/bin:$PATH"
 
 # Create a directory for logs
 RUN mkdir -p logs
 
+COPY main.py .
+COPY invoice_types.py .
+
+
 # Expose port for the FastAPI application
 EXPOSE 8000
-
-# Set environment variables
-ENV PYTHONPATH=/app
-ENV PYTHONUNBUFFERED=1
 
 # Run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
