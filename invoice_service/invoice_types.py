@@ -43,7 +43,7 @@ class PaymentMethod(str, Enum):
 
 
 class OwnCompanyInfo(BaseModel):
-    name: OwnCompanyName = Field(description="Company name")
+    name: OwnCompanyName = Field(description="Own Company short name")
     company_name: str = Field(description="Company name")
     address: Address = Field(description="Company address")
     identification_number: str = Field(description="Company identification number (IČO)")
@@ -126,6 +126,8 @@ class Invoice(BaseModel):
     
     # Additional information
     description: str = Field(description="Description of the transaction", default="")
+
+    place_of_issue: str = Field(description="Branch office or place where the invoice was issued", default="")
 
     # Line items
     lines: list[InvoiceLineItem] = Field(description="Invoice line items")
