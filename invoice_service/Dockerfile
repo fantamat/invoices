@@ -30,6 +30,7 @@ RUN mkdir -p logs
 
 COPY main.py .
 COPY invoice_types.py .
+COPY utils.py .
 
 
 # Expose port for the FastAPI application

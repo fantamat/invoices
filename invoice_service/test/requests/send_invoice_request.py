@@ -18,7 +18,7 @@ import mimetypes
 from pathlib import Path
 
 # Service URL - change this to match your deployment
-SERVICE_URL = "http://localhost:8000"
+SERVICE_URL = "http://localhost:8007"
 
 
 def get_mimetype(file_path):

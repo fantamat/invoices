@@ -23,6 +23,10 @@ import httpx
 import asyncio
 
 
+from utils import replace_null_values
+
+
+
 # Configure logging
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
@@ -40,6 +44,16 @@ DB_PATH = DB_DIR / "invoices.db"
 MODEL_NAME = os.environ.get("GEMINI_MODEL", "")
 
 CALLBACK_URL = os.environ.get("CALLBACK_URL", "")
+
+
+
+PROMPT_TEMPLATE_DOCUMENT_TEXT = "Extract the structured invoice data from this document. The document contains the following text:\n\n{document_text}"
+
+
+PROMPT_MAIN = "Extract the structured data from the image in the given JSON format."
+
+
+
 
 def setup_database():
     """Initialize the SQLite database with required tables."""
@@ -160,7 +174,7 @@ def process_image(image_path: str) -> Dict[str, Any]:
         
         response = client.models.generate_content(
             model=MODEL_NAME,
-            contents=[image, "Extract the structured data from the image in the given JSON format."],
+            contents=[image, PROMPT_MAIN],
             config={
                 'response_mime_type': 'application/json',
                 'response_schema': Invoice,
@@ -174,7 +188,7 @@ def process_image(image_path: str) -> Dict[str, Any]:
         logger.info(f"File processed: {Path(image_path).name}, tokens used: {token_count}")
         
         return {
-            "invoice": invoice.model_dump(),
+            "invoice": replace_null_values(invoice.model_dump()),
             "total_token_count": token_count,
         }
     except Exception as e:
@@ -200,10 +214,10 @@ def process_pdf(pdf_path: str) -> Dict[str, Any]:
             logger.info(f"PDF has more than 5 pages, limiting to first 5 pages")
         
         contents.append(
-            f"Extract the structured invoice data from this document. The document contains the following text:\n\n{markdown_text[:4000]}"
+            PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:4000])
         )
-        contents.append("Extract the structured data in the given JSON format.")
-        
+        contents.append(PROMPT_MAIN)
+
         # Process with Gemini using both the markdown text and image
         response = client.models.generate_content(
             model=MODEL_NAME,
@@ -221,7 +235,7 @@ def process_pdf(pdf_path: str) -> Dict[str, Any]:
         logger.info(f"PDF processed: {Path(pdf_path).name}, tokens used: {token_count}")
         
         return {
-            "invoice": invoice.model_dump(),
+            "invoice": replace_null_values(invoice.model_dump()),
             "total_token_count": token_count,
         }
     except Exception as e:
@@ -244,8 +258,8 @@ def process_docx(docx_path: str) -> Dict[str, Any]:
         response = client.models.generate_content(
             model=MODEL_NAME,
             contents=[
-                f"Extract the structured invoice data from this document. The document contains the following text:\n\n{markdown_text[:4000]}",  # Limit text length
-                "Extract the structured data in the given JSON format."
+                PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:4000]),  # Limit text length
+                PROMPT_MAIN
             ],
             config={
                 'response_mime_type': 'application/json',
@@ -260,7 +274,7 @@ def process_docx(docx_path: str) -> Dict[str, Any]:
         logger.info(f"DOCX processed: {Path(docx_path).name}, tokens used: {token_count}")
         
         return {
-            "invoice": invoice.model_dump(),
+            "invoice": replace_null_values(invoice.model_dump()),
             "total_token_count": token_count,
         }
     except Exception as e:

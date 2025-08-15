@@ -118,9 +118,13 @@ class Invoice(BaseModel):
     shipping_info: ShippingInfo = Field(description="Shipping information", default=None)
     
     # Invoice amounts
-    amount_wo_rounding: float = Field(description="Total price before rounding")
-    amount_rounding: float = Field(description="Rounding amount", default=0.0)
-    amount: float = Field(description="Total amount to pay")
+    amount_discount: float = Field(description="Total discount amount in currency", default=0.0)
+    amount_without_discount: float = Field(description="Total price before discount", default=0.0)
+    
+    amount_without_rounding: float = Field(description="Total price before rounding after discount", default=0.0)
+    amount_rounding: float = Field(description="Total price rounding amount", default=0.0)
+    amount_total: float = Field(description="Total price for the entire invoice/receipt with rounding", default=0.0)
+
     currency_id: Currency = Field(description="Currency")
     vat_currency_id: Currency = Field(description="VAT currency", default=None)
     
