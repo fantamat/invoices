@@ -72,6 +72,8 @@ def setup_database():
         error_message TEXT
     )
     ''')
+
+
     
     conn.commit()
     conn.close()
@@ -162,6 +164,30 @@ def save_to_database(file_id: str, file_name: str, file_type: str, token_count: 
         logger.error(f"Error saving to database: {str(e)}")
 
 
+def generate_response(content, message):
+    response = client.models.generate_content(
+        model=MODEL_NAME,
+        contents=content,
+        config={
+            'response_mime_type': 'application/json',
+            'response_schema': Invoice,
+        },
+    )
+    
+    invoice: Invoice = response.parsed
+    token_count = response.usage_metadata.total_token_count
+    input_token_count = response.usage_metadata.prompt_token_count
+    output_token_count = response.usage_metadata.candidates_token_count
+    thoughts_token_count = response.usage_metadata.thoughts_token_count
+    logger.info(message)
+    logger.info(f"Tokens: Input tokens: {input_token_count}, Output tokens: {output_token_count}, Thoughts tokens: {thoughts_token_count}, Total tokens: {token_count}")
+
+    return {
+        "invoice": replace_null_values(invoice.model_dump()),
+        "total_token_count": token_count,
+    }
+
+
 def process_image(image_path: str) -> Dict[str, Any]:
     """Process an image using Gemini and extract invoice data"""
     try:
@@ -171,26 +197,12 @@ def process_image(image_path: str) -> Dict[str, Any]:
         # global client
         if not client:
             raise RuntimeError("Gemini client not initialized")
-        
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=[image, PROMPT_MAIN],
-            config={
-                'response_mime_type': 'application/json',
-                'response_schema': Invoice,
-            },
+
+        return generate_response(
+            [image, PROMPT_MAIN], 
+            f"Processing image: {Path(image_path).name}"
         )
-        
-        invoice: Invoice = response.parsed
-        token_count = response.usage_metadata.total_token_count
-        
-        # Log token usage
-        logger.info(f"File processed: {Path(image_path).name}, tokens used: {token_count}")
-        
-        return {
-            "invoice": replace_null_values(invoice.model_dump()),
-            "total_token_count": token_count,
-        }
+
     except Exception as e:
         logger.error(f"Error processing image {image_path}: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing image: {str(e)}")
@@ -218,26 +230,8 @@ def process_pdf(pdf_path: str) -> Dict[str, Any]:
         )
         contents.append(PROMPT_MAIN)
 
-        # Process with Gemini using both the markdown text and image
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=contents,
-            config={
-                'response_mime_type': 'application/json',
-                'response_schema': Invoice,
-            },
-        )
-        
-        invoice: Invoice = response.parsed
-        token_count = response.usage_metadata.total_token_count
-        
-        # Log token usage
-        logger.info(f"PDF processed: {Path(pdf_path).name}, tokens used: {token_count}")
-        
-        return {
-            "invoice": replace_null_values(invoice.model_dump()),
-            "total_token_count": token_count,
-        }
+        return generate_response(contents, f"Processing PDF: {Path(pdf_path).name}")
+    
     except Exception as e:
         logger.error(f"Error processing PDF {pdf_path}: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing PDF: {str(e)}")
@@ -253,30 +247,14 @@ def process_docx(docx_path: str) -> Dict[str, Any]:
         
         markdown_text = result.text_content
         logger.info(f"DOCX converted to markdown text using MarkItDown")
-        
-        # Process with Gemini
-        response = client.models.generate_content(
-            model=MODEL_NAME,
-            contents=[
+
+        return generate_response(
+            [
                 PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:4000]),  # Limit text length
                 PROMPT_MAIN
             ],
-            config={
-                'response_mime_type': 'application/json',
-                'response_schema': Invoice,
-            },
+            f"Processing DOCX: {Path(docx_path).name}"
         )
-        
-        invoice: Invoice = response.parsed
-        token_count = response.usage_metadata.total_token_count
-        
-        # Log token usage
-        logger.info(f"DOCX processed: {Path(docx_path).name}, tokens used: {token_count}")
-        
-        return {
-            "invoice": replace_null_values(invoice.model_dump()),
-            "total_token_count": token_count,
-        }
     except Exception as e:
         logger.error(f"Error processing DOCX {docx_path}: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing DOCX: {str(e)}")
@@ -325,7 +303,7 @@ async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...)
                 request_data={"filename": file.filename, "file_id": file_id},
                 response_data=result
             )
-            
+
             return result
         except HTTPException as e:  # Handle HTTP exceptions raised during processing
             logger.error(f"HTTP error processing file {file.filename}: {str(e)}")
@@ -511,4 +489,4 @@ async def delete_history_record(record_id: int):
         raise HTTPException(status_code=500, detail=f"Error deleting record: {str(e)}")
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8007, reload=True)
