@@ -45,12 +45,52 @@ MODEL_NAME = os.environ.get("GEMINI_MODEL", "")
 
 CALLBACK_URL = os.environ.get("CALLBACK_URL", "")
 
+PROMPT_SYSTEM = """
+You are a finance document parsing assistant. Use the provided **Invoice** response_schema as the only source of field names.
+**Return exactly ONE valid JSON object. No explanations.**
 
+Rules:
+- **No invention**: if a value isn’t printed or is unreadable, return an **empty value by type** ("" for strings, 0 for numbers, [] for arrays).
+- **Preserve original text** (names, item descriptions, addresses). Do not translate.
+- **Dates** → YYYY-MM-DD. **Numbers** → '.' as decimal separator, no thousand separators. **Do not round** beyond what is printed, except as defined below.
+- **Roles**: Supplier/Issuer vs Buyer/Customer — never swap. For receipts without printed buyer legal data (IČO/DIČ), leave our company empty and set the merchant as counterparty.
 
-PROMPT_TEMPLATE_DOCUMENT_TEXT = "Extract the structured invoice data from this document. The document contains the following text:\n\n{document_text}"
+Meaning of line fields:
+- `unit_price` = NET unit price (without VAT), **4–6 decimals** allowed.
+- `ext_price`   = quantity × unit_price (NET), **must be 2 decimals**.
+- `total_with_vat` = line gross total (with VAT), **must be 2 decimals**.
 
+**Snapping rule (mandatory, no tolerances):**
+- If the document prints a line NET total (base) or an invoice VAT base, set `ext_price` **exactly** to that printed value (2 decimals).
+- Then set `unit_price = ext_price / quantity`, rounded to **4–6 decimals**, such that `round(quantity * unit_price, 2) == ext_price`.
+- If only a GROSS unit/total is printed **and** a VAT rate is explicitly available, derive NET as `gross/(1+rate/100)` and then apply the snapping rule so the 2-decimal `ext_price` matches the printed base or the derived base.
+- If no VAT rate is printed anywhere, **do not derive NET**; keep printed numbers and leave missing NET fields empty by type.
 
-PROMPT_MAIN = "Extract the structured data from the image in the given JSON format."
+- **Totals**: copy printed totals (2 decimals). **Do NOT fix totals**. If something doesn’t reconcile and values aren’t explicitly available, keep what is printed and leave the rest empty by type.
+
+- **Payment method**: POS cues (MASTERCARD/VISA/Contactless/PIN) → card; “Hotově/Hotovost/Cash” → cash; bank details present (account/IBAN/VS) → bank_transfer.
+
+**Output only the JSON object.**
+"""
+
+PROMPT_TEMPLATE_DOCUMENT_TEXT = (
+    "The following is text extracted from the document (markdown/plain). "
+    "Treat it as authoritative for numbers and identifiers:\n\n{document_text}"
+)
+
+PROMPT_UNIFIED_POLICY = """
+This document can be an image or PDF; you may receive **page images** and **converted text**.
+
+- **Text-first, image-assisted**: use converted text as primary for numbers/IDs/dates; use images for columns, row alignment, and any OCR-missed text.
+- **Line items**: extract exactly what is printed; keep original order. If a receipt aggregates items to one row, output one row. If a description wraps, merge into one description.
+- **NET vs GROSS**:
+  - Invoices: unit price columns are typically **NET** unless explicitly labeled gross.
+  - Receipts: “Cena/j.” or “Cena” is typically **GROSS** unless explicitly “bez DPH/without VAT”.
+  - To derive NET from GROSS you must see an explicit VAT rate (line rate or VAT summary). After derivation, apply the **snapping rule** so 2-decimal `ext_price` matches the printed/derived base exactly.
+- **Conflicts (text vs image)**: prefer printed numeric values visible on the page; use layout only to align, never to invent numbers.
+
+Follow the **Invoice** response_schema exactly. Missing fields → empty value by type.
+"""
 
 
 
@@ -198,10 +238,9 @@ def process_image(image_path: str) -> Dict[str, Any]:
         if not client:
             raise RuntimeError("Gemini client not initialized")
 
-        return generate_response(
-            [image, PROMPT_MAIN], 
-            f"Processing image: {Path(image_path).name}"
-        )
+        contents = [PROMPT_SYSTEM, PROMPT_UNIFIED_POLICY, image]
+
+        return generate_response(contents, f"Processing image: {Path(image_path).name}")
 
     except Exception as e:
         logger.error(f"Error processing image {image_path}: {str(e)}")
@@ -216,19 +255,21 @@ def process_pdf(pdf_path: str) -> Dict[str, Any]:
         with open(pdf_path, 'rb') as f:
             result = md.convert_stream(f, mime_type='application/pdf')
         
-        markdown_text = result.text_content
+        markdown_text = result.text_content or ""
         logger.info(f"PDF converted to markdown text using MarkItDown")
         
         # Also convert PDF to image for visual analysis
-        contents = convert_from_path(pdf_path)
-        if len(contents) > 5:
-            contents = contents[:5]  # Limit to first 5 pages
+        pages = convert_from_path(pdf_path)
+        if len(pages) > 5:
+            pages = pages[:5]
             logger.info(f"PDF has more than 5 pages, limiting to first 5 pages")
-        
-        contents.append(
-            PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:4000])
-        )
-        contents.append(PROMPT_MAIN)
+
+        contents: List[Any] = [
+            PROMPT_SYSTEM,
+            PROMPT_UNIFIED_POLICY,
+            PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:8000]),
+        ]
+        contents.extend(pages)
 
         return generate_response(contents, f"Processing PDF: {Path(pdf_path).name}")
     
@@ -245,16 +286,17 @@ def process_docx(docx_path: str) -> Dict[str, Any]:
         with open(docx_path, 'rb') as f:
             result = md.convert_stream(f, mime_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
         
-        markdown_text = result.text_content
+        markdown_text = result.text_content or ""
         logger.info(f"DOCX converted to markdown text using MarkItDown")
 
-        return generate_response(
-            [
-                PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:4000]),  # Limit text length
-                PROMPT_MAIN
-            ],
-            f"Processing DOCX: {Path(docx_path).name}"
-        )
+        contents = [
+            PROMPT_SYSTEM,
+            PROMPT_UNIFIED_POLICY,
+            PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:8000]),
+        ]
+
+        return generate_response(contents, f"Processing DOCX: {Path(docx_path).name}")
+
     except Exception as e:
         logger.error(f"Error processing DOCX {docx_path}: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing DOCX: {str(e)}")
