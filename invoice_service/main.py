@@ -113,11 +113,10 @@ def setup_database():
     )
     ''')
 
-
-    
     conn.commit()
     conn.close()
     logger.info(f"Database initialized at {DB_PATH}")
+
 
 # Initialize database on module load
 setup_database()
@@ -204,9 +203,9 @@ def save_to_database(file_id: str, file_name: str, file_type: str, token_count: 
         logger.error(f"Error saving to database: {str(e)}")
 
 
-def generate_response(content, message):
+def generate_response(content, message, model_name):
     response = client.models.generate_content(
-        model=MODEL_NAME,
+        model=model_name,
         contents=content,
         config={
             'response_mime_type': 'application/json',
@@ -225,10 +224,14 @@ def generate_response(content, message):
     return {
         "invoice": replace_null_values(invoice.model_dump()),
         "total_token_count": token_count,
+        "input_token_count": input_token_count,
+        "output_token_count": output_token_count,
+        "thoughts_token_count": thoughts_token_count,
+        "model": model_name
     }
 
 
-def process_image(image_path: str) -> Dict[str, Any]:
+def process_image(model_name: str, image_path: str) -> Dict[str, Any]:
     """Process an image using Gemini and extract invoice data"""
     try:
         image = Image.open(image_path)
@@ -240,14 +243,14 @@ def process_image(image_path: str) -> Dict[str, Any]:
 
         contents = [PROMPT_SYSTEM, PROMPT_UNIFIED_POLICY, image]
 
-        return generate_response(contents, f"Processing image: {Path(image_path).name}")
+        return generate_response(contents, f"Processing image: {Path(image_path).name}", model_name)
 
     except Exception as e:
         logger.error(f"Error processing image {image_path}: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing image: {str(e)}")
 
 
-def process_pdf(pdf_path: str) -> Dict[str, Any]:
+def process_pdf(model_name: str, pdf_path: str) -> Dict[str, Any]:
     """Process a PDF document using Gemini"""
     try:
         # Use MarkItDown to convert PDF to markdown text
@@ -271,14 +274,14 @@ def process_pdf(pdf_path: str) -> Dict[str, Any]:
         ]
         contents.extend(pages)
 
-        return generate_response(contents, f"Processing PDF: {Path(pdf_path).name}")
-    
+        return generate_response(contents, f"Processing PDF: {Path(pdf_path).name}", model_name)
+
     except Exception as e:
         logger.error(f"Error processing PDF {pdf_path}: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error processing PDF: {str(e)}")
 
 
-def process_docx(docx_path: str) -> Dict[str, Any]:
+def process_docx(model_name: str, docx_path: str) -> Dict[str, Any]:
     """Process a DOCX document using Gemini"""
     try:
         # Use MarkItDown to convert DOCX to markdown text
@@ -295,7 +298,7 @@ def process_docx(docx_path: str) -> Dict[str, Any]:
             PROMPT_TEMPLATE_DOCUMENT_TEXT.format(document_text=markdown_text[:8000]),
         ]
 
-        return generate_response(contents, f"Processing DOCX: {Path(docx_path).name}")
+        return generate_response(contents, f"Processing DOCX: {Path(docx_path).name}", model_name)
 
     except Exception as e:
         logger.error(f"Error processing DOCX {docx_path}: {str(e)}")
@@ -303,7 +306,7 @@ def process_docx(docx_path: str) -> Dict[str, Any]:
 
 
 @app.post("/invoice", response_class=JSONResponse)
-async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...)):
+async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...), model_name: str = Form(...)):
     """
     Process an invoice document (image, PDF, or DOCX) and extract structured data
     """
@@ -323,13 +326,13 @@ async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...)
         # Process file based on type
         try:
             if file_extension in ['jpg', 'jpeg', 'png']:
-                result = process_image(temp_file_path)
+                result = process_image(model_name, temp_file_path)
                 file_type = "image"
             elif file_extension == 'pdf':
-                result = process_pdf(temp_file_path)
+                result = process_pdf(model_name, temp_file_path)
                 file_type = "pdf"
             elif file_extension == 'docx':
-                result = process_docx(temp_file_path)
+                result = process_docx(model_name, temp_file_path)
                 file_type = "docx"
             else:
                 error_msg = f"Unsupported file format: {file_extension}"                # Log the error to database
@@ -361,7 +364,7 @@ async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...)
 
 
 @app.post("/invoice/async", response_class=JSONResponse)
-async def process_invoice_async(file: UploadFile = File(...), file_id: str = Form(...)):
+async def process_invoice_async(file: UploadFile = File(...), file_id: str = Form(...), model_name: str = Form(...)):
     """
     Asynchronously process an invoice document and immediately respond.
     The result will be sent to the configured CALLBACK_URL.
@@ -377,6 +380,7 @@ async def process_invoice_async(file: UploadFile = File(...), file_id: str = For
         response_data = {"status": "processing", "file_id": file_id, "filename": file.filename}
         asyncio.create_task(
             _process_and_callback(
+                model_name,
                 temp_file_path,
                 file_extension,
                 file_id,
@@ -389,19 +393,19 @@ async def process_invoice_async(file: UploadFile = File(...), file_id: str = For
         # Do not remove temp file here; cleanup is handled in the background task
         pass
 
-async def _process_and_callback(temp_file_path, file_extension, file_id, filename, callback_url):
+async def _process_and_callback(model_name, temp_file_path, file_extension, file_id, filename, callback_url):
     file_type = None
     result = None
     error_message = None
     try:
         if file_extension in ['jpg', 'jpeg', 'png']:
-            result = process_image(temp_file_path)
+            result = process_image(model_name, temp_file_path)
             file_type = "image"
         elif file_extension == 'pdf':
-            result = process_pdf(temp_file_path)
+            result = process_pdf(model_name, temp_file_path)
             file_type = "pdf"
         elif file_extension == 'docx':
-            result = process_docx(temp_file_path)
+            result = process_docx(model_name, temp_file_path)
             file_type = "docx"
         else:
             error_message = f"Unsupported file format: {file_extension}"
