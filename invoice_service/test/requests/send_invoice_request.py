@@ -30,7 +30,7 @@ def get_mimetype(file_path):
     return mime
 
 
-def send_invoice_request(file_path, file_id):
+def send_invoice_request(model_name, file_path, file_id):
     """Send an invoice file to the processing service"""
     # Check if file exists
     if not os.path.exists(file_path):
@@ -49,7 +49,8 @@ def send_invoice_request(file_path, file_id):
     }
     
     data = {
-        "file_id": file_id
+        "file_id": file_id,
+        "model_name": model_name,
     }
     
     # Send the request
@@ -151,4 +152,6 @@ if __name__ == "__main__":
         # Process invoice
         file_path = sys.argv[1]
         file_id = sys.argv[2] if len(sys.argv) > 2 else f"invoice-{os.path.basename(file_path)}"
-        send_invoice_request(file_path, file_id)
+        model_name = sys.argv[3] if len(sys.argv) > 3 else "gemini-2.5-pro-preview-03-25"
+
+        send_invoice_request(model_name, file_path, file_id)

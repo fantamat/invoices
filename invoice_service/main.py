@@ -107,7 +107,11 @@ def setup_database():
         file_name TEXT NOT NULL,
         file_type TEXT NOT NULL,
         timestamp TEXT NOT NULL,
+        model TEXT NOT NULL,
         token_count INTEGER,
+        input_token_count INTEGER,
+        output_token_count INTEGER,
+        thoughts_token_count INTEGER,
         response_json TEXT,
         error_message TEXT
     )
@@ -174,8 +178,13 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-def save_to_database(file_id: str, file_name: str, file_type: str, token_count: Optional[int] = None, 
-                    request_data: Optional[Dict] = None, response_data: Optional[Dict] = None, 
+def save_to_database(file_id: str, file_name: str, file_type: str, 
+                    token_count: Optional[int] = None, 
+                    input_token_count: Optional[int] = None,
+                    output_token_count: Optional[int] = None,
+                    thoughts_token_count: Optional[int] = None,
+                    model: Optional[str] = None, 
+                    response_data: Optional[Dict] = None, 
                     error_message: Optional[str] = None):
     """Save processing data to SQLite database."""
     try:
@@ -184,14 +193,18 @@ def save_to_database(file_id: str, file_name: str, file_type: str, token_count: 
         
         cursor.execute('''
         INSERT INTO invoice_processes 
-        (file_id, file_name, file_type, timestamp, token_count, response_json, error_message)
-        VALUES (?, ?, ?, ?, ?, ?, ?)
+        (file_id, file_name, file_type, timestamp, model, token_count, input_token_count, output_token_count, thoughts_token_count, response_json, error_message)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             file_id,
             file_name,
             file_type,
             datetime.now().isoformat(),
+            model,
             token_count,
+            input_token_count,
+            output_token_count,
+            thoughts_token_count,
             json.dumps(response_data) if response_data else None,
             error_message
         ))
@@ -344,8 +357,11 @@ async def process_invoice(file: UploadFile = File(...), file_id: str = Form(...)
                 file_id=file_id,
                 file_name=file.filename,
                 file_type=file_type,
+                model=model_name,
                 token_count=result.get("total_token_count"),
-                request_data={"filename": file.filename, "file_id": file_id},
+                input_token_count=result.get("input_token_count"),
+                output_token_count=result.get("output_token_count"),
+                thoughts_token_count=result.get("thoughts_token_count"),
                 response_data=result
             )
 
@@ -420,8 +436,11 @@ async def _process_and_callback(model_name, temp_file_path, file_extension, file
             file_id=file_id,
             file_name=filename,
             file_type=file_type,
+            model=model_name,
             token_count=result.get("total_token_count") if result else None,
-            request_data={"filename": filename, "file_id": file_id},
+            input_token_count=result.get("input_token_count") if result else None,
+            output_token_count=result.get("output_token_count") if result else None,
+            thoughts_token_count=result.get("thoughts_token_count") if result else None,
             response_data=result,
             error_message=error_message
         )
